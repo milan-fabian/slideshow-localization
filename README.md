@@ -6,11 +6,11 @@ This repository contains localization files for Slideshow software.
 
 If you want to fix existing translation or add translation for language that isn't here yet, **feel free to create pull request** or create an issue. I will be happy to merge it (or fix it) and it will be added to the following release of Slideshow software.
 
-Localization of Slideshow software is divided into two parts (see two folders in the repository), please update both parts (otherwise I will have to use Google Translate and that might not be pretty :)):
+Localization of Slideshow software is divided into two parts (see two folders in this repository):
 - **backend** - one file for each language, key=value format
 - **web-interface** - one file for all languages, JavaScript format: `localization.lang["key"] = "value";`
 
-Use UTF-8 encoding for the files.
+Please update both parts (otherwise I will have to use Google Translate and that might not be pretty :smiley:). Use UTF-8 encoding for the files.
 
 ## Current languages:
 - Czech (thanks to Aleš Obst)
