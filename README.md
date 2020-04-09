@@ -4,7 +4,7 @@ This repository contains localization files for Slideshow software.
 
 ## How to contribute
 
-If you want to fix existing translation or add translation for language that isn't here yet, **feel free to create pull request** or create an issue. I will be happy to merge it (or fix it) and it will be added to the following release of Slideshow software.
+If you want to fix a problem in existing translation or add translation for language that isn't here yet, **feel free to create a pull request** or create an issue. I will be happy to merge it (or fix it) and it will be added to the following release of Slideshow software.
 
 Localization of Slideshow software is divided into two parts (see two folders in this repository):
 - **backend** - one file for each language, key=value format
@@ -24,4 +24,4 @@ Please update both parts (otherwise I will have to use Google Translate and that
 
 Slideshow is free digital signage software for Android.
 
-Find more information about Slideshow on https://slideshow.milanfabian.com/ or download it directly on https://slideshow.milanfabian.com/how-to-get-it/.
+Find more information about Slideshow on https://slideshow.digital/ or download it directly on https://slideshow.digital/how-to-get-it/.
