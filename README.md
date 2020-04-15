@@ -4,10 +4,10 @@ This repository contains localization files for Slideshow software.
 
 ## How to contribute
 
-If you want to fix a problem in existing translation or add translation for language that isn't here yet, **feel free to create a pull request** or create an issue. I will be happy to merge it (or fix it) and it will be added to the following release of Slideshow software.
+If you want to fix a problem in existing translation or add translation for language that isn't here yet, **feel free to create a pull request**, create an issue, or just contact me directly. I will be happy to merge it (or fix it) and it will be added to the following release of Slideshow software.
 
 Localization of Slideshow software is divided into two parts (see two folders in this repository):
-- **backend** - one file for each language, key=value format
+- **backend** - one file for each language, key=value format. There is also Excel file localization.xlsx with all languages in one table, for the reference.
 - **web-interface** - one file for all languages, JavaScript format: `localization.lang["key"] = "value";`
 
 Please update both parts (otherwise I will have to use Google Translate and that might not be pretty :smiley:). Use UTF-8 encoding for the files.
