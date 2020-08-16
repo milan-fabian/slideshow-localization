@@ -1,7 +1,7 @@
 this_lang=English
 language=Language
 volume=Volume
-welcome_message=Welcome to Slideshow presentation control.
+welcome_message=Web interface of Slideshow - Digital Signage player
 playlists=Playlists
 playlist_add_new=Add new playlist
 playlist_no_created=No playlist has been created yet.

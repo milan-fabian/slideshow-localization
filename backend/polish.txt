@@ -1,7 +1,7 @@
 this_lang=Polski
 language=Język
 volume=Głośność
-welcome_message=Witamy w Panelu Sterowania Slideshow.
+welcome_message=Interfejs sieciowy Slideshow - odtwarzacz Digital Signage
 playlists=Playlisty
 playlist_add_new=Dodaj nową playlistę
 playlist_no_created=Nie utworzono jeszcze żadnej listy odtwarzania.

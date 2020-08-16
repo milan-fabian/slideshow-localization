@@ -1,7 +1,7 @@
 this_lang=Slovak
 language=Jazyk
 volume=Hlasitosť
-welcome_message=Vitajte v systéme na ovládanie Slideshow prezentácie.
+welcome_message=Webové rozhranie Slideshow - prehrávač pre Digital Signage
 playlists=Playlisty
 playlist_add_new=Pridať nový playlist
 playlist_no_created=Zatiaľ nie je vytvorený žiadny playlist.
@@ -191,7 +191,7 @@ reboot_device=Reštartovať zariadenie
 reboot_info=Po stlačení tlačítka zhasne obrazovka a zariadenie prestane odpovedať. O približne 2 minúty sa môžete znova pripojiť.
 reboot_question=Naozaj chcete reštartovať zariadenie?
 update_apply_reload=Pre aplikovanie aktualizácie reštartujte aplikáciu
-item_path_help=Podľa typu:<br><b>Jeden súbor:</b> názov nahratého súboru.<br><b>Audio/video stream:</b> URL adresa streamu vrátane "http://" or "https://".<br><b>Súbory abecedne / náhodne:</b> môžete definovať viac súborov pomocou tzv. wildcard (*), napríklad všetky súbory s príponou jpg viete zahrnúť pod "*.jpg" (bez úvodzoviek), alebo všetky súbory v podadresári s názvom "prezentacia" pod "prezentacia/*" (bez úvodzoviek).
+item_path_help=Podľa typu:<br><b>Jeden súbor:</b> názov nahratého súboru.<br><b>Audio/video stream:</b> URL adresa streamu vrátane "http://" alebo "https://".<br><b>Súbory abecedne / náhodne:</b> môžete definovať viac súborov pomocou tzv. wildcard (*), napríklad všetky súbory s príponou jpg viete zahrnúť pod "*.jpg" (bez úvodzoviek), alebo všetky súbory v podadresári s názvom "prezentacia" pod "prezentacia/*" (bez úvodzoviek).
 unsupported_extension=Nepodporovaný typ súboru (prípona)
 downloader_log_empty=Od posledného spustenia nebol stiahnutý žiadny súbor
 downloader_queue_length=Dĺžka fronty na sťahovanie

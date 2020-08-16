@@ -1,7 +1,7 @@
 this_lang=Deutsch
 language=Sprache
 volume=Lautstärke
-welcome_message=Willkommen zur Steuerung der Slideshow.
+welcome_message=Webinterface von Slideshow - Digital Signage Player
 playlists=Wiedergabelisten
 playlist_add_new=Neue Wiedergabeliste hinzufügen
 playlist_no_created=Es wurde noch keine Playlist erstellt.

@@ -1,7 +1,7 @@
 this_lang=Italiano
 language=linguaggio
 volume=Volume
-welcome_message=Benvenuto in Controllo Slideshow.
+welcome_message=Interfaccia Web di Slideshow - lettore di segnaletica digitale
 playlists=Playlist
 playlist_add_new=Aggiungi nuova playlist
 playlist_no_created=Nessuna playlist è stata ancora creata.
