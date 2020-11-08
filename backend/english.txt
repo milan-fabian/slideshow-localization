@@ -595,3 +595,14 @@ color=Color
 stroke=Border line
 users_help=List of users, which can access this web interface.
 password_change_help=Change password for web interface for currently logged user.
+weather_text=Text template
+weather_text_help=Template for weather information text. Must contain 2x "%d" placeholder for temperature range. All characters except date formatting have to be enclosed within single quotes (').<br>See <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html</a> for date format specification.
+launcher_clear=Unset Slideshow as Launcher / Home application
+launcher_clear_success=Unsetting Launcher / Home application was successful
+android_settings=Android settings
+launcher_set=Set Slideshow as Launcher / Home application
+launcher_set_help=Opens a dialog with list of apps, where you can set Slideshow as this device's Launcher / Home app. If no dialog is displayed, please change the Home app via Android settings. Use only of devices dedicated to Slideshow. 
+screen_login_required=Login is required for this action
+screen_login_required_help=Please enter username and password (the same as for the web interface) or contact your administrator
+password_protect_screen=Protect screen with password
+password_protect_screen_help=Entering password will be required for any action on the devices's screen (opening on-screen menu, opening settings, etc.). Use the same username and password as for the web interface.

@@ -595,3 +595,14 @@ color=Farba
 stroke=Čiara okraju
 users_help=Zoznam používateľov, ktorý majú prístup k tomuto webovému rozhraniu.
 password_change_help=Zmeniť heslo do webového rozhrania pre aktuálne prihláseného užívateľa.
+weather_text=Šablóna textu
+weather_text_help=Šablóna pre informácie o počasí. Musí obsahovať 2x zástupný symbol "%d", ktorý bude nahradený teplotou. Všetky znaky okrem formátovania dátumu musia byť uzavreté v apostofoch ('). Špecifikácia formátu dátumu je dostupná na <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html"> https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html</a>.
+launcher_clear=Zrušiť nastavenie Slideshow ako Launcher aplikácie
+launcher_clear_success=Zrušenie Launcher aplikácie bolo úspešné
+android_settings=Nastavenia Androidu
+launcher_set=Nastaviť Slideshow ako Launcher aplikáciu
+launcher_set_help=Zobrazí zoznam aplikácií, kde môžete vybrať Slideshow ako Launcher aplikáciu tohto zariadenia. Ak sa nezobrazí zoznam, zmenu môžete spraviť cez nastavenia Androidu. Použite len ak toto zariadenie bude určené prevažne pre Slideshow.
+screen_login_required=Pre vykonanie tejto akcie je potrebné prihlásenie
+screen_login_required_help=Prosím zadajte meno a heslo (rovnaké ako na webové rozhranie), alebo kontaktujte svojho administrátora
+password_protect_screen=Zabezpečiť obrazovku heslom
+password_protect_screen_help=Na akciu na obrazovke zariadenia (otvorenie menu, otvorenie nastavení, atď.) bude vyžadované heslo. Použite rovnaké heslo ako do webového rozhrania.

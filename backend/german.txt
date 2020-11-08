@@ -595,3 +595,14 @@ color=Farbe
 stroke=Grenzlinie
 users_help=Liste der Benutzer, die auf diese Weboberfläche zugreifen können.
 password_change_help=Ändern Sie das Kennwort für die Weboberfläche für den aktuell angemeldeten Benutzer.
+weather_text=Textvorlage
+weather_text_help=Vorlage für Wetterinformationstext. Muss 2x Platzhalter "%d" für den Temperaturbereich enthalten. Alle Zeichen außer der Datumsformatierung müssen in einfache Anführungszeichen (') gesetzt werden.<br>Siehe <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html</a> für die Angabe des Datumsformats.
+launcher_clear=Deaktivierte Slideshow als Launcher-App
+launcher_clear_success=Das Deaktivieren der Launcher-Anwendung war erfolgreich
+android_settings=Android-Einstellungen
+launcher_set=Set Slideshow als Launcher-Anwendung
+launcher_set_help=Öffnet eine Liste von Apps, in der Sie die Slideshow als Launcher-App dieses Geräts festlegen können. Verwenden Sie nur Geräte, die für die Slideshow vorgesehen sind.
+screen_login_required=Für diese Aktion ist ein Login erforderlich
+screen_login_required_help=Bitte geben Sie den Benutzernamen und das Passwort ein (wie für die Weboberfläche) oder wenden Sie sich an Ihren Administrator
+password_protect_screen=Bildschirm mit Passwort schützen
+password_protect_screen_help=Die Eingabe eines Kennworts ist für alle Aktionen auf dem Bildschirm des Geräts erforderlich (Öffnen des Bildschirmmenüs, Öffnen der Einstellungen usw.). Verwenden Sie denselben Benutzernamen und dasselbe Passwort wie für die Weboberfläche.

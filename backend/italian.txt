@@ -595,3 +595,14 @@ color=Colore
 stroke=Linea di confine
 users_help=Elenco di utenti che possono accedere a questa interfaccia web.
 password_change_help=Modifica la password per l'interfaccia web per l'utente attualmente connesso.
+weather_text=Modello di testo
+weather_text_help=Modello per il testo delle informazioni meteorologiche. Deve contenere 2x segnaposto "%d" per l'intervallo di temperatura. Tutti i caratteri tranne la formattazione della data devono essere racchiusi tra virgolette singole (').<br>Vedere <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html</a> per la specifica del formato della data.
+launcher_clear=Annulla impostazione Slideshow come app di avvio
+launcher_clear_success=Disinserimento dell'applicazione Launcher è riuscito
+android_settings=Impostazioni Android
+launcher_set=Imposta Slideshow come applicazione di avvio
+launcher_set_help=Apre un elenco di app, in cui è possibile impostare Slideshow come app Launcher di questo dispositivo. Utilizzare solo dispositivi dedicati alla Slideshow.
+screen_login_required=L'accesso è richiesto per questa azione
+screen_login_required_help=Inserisci nome utente e password (la stessa dell'interfaccia web) o contatta l'amministratore
+password_protect_screen=Proteggi lo schermo con una password
+password_protect_screen_help=L'inserimento della password sarà richiesto per qualsiasi azione sullo schermo del dispositivo (apertura del menu su schermo, apertura delle impostazioni, ecc.). Utilizza lo stesso nome utente e password dell'interfaccia web.
