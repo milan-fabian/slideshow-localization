@@ -4,10 +4,12 @@ localization["it"] = {};
 localization["pl"] = {};
 localization["sk"] = {};
 localization["cs"] = {};
+localization["de"] = {};
+localization["pt"] = {};
 
-localization.en["reboot"] = "Reboot";
+localization.en["reboot"] = "Reboot device";
 localization.en["reboot_success"] = "Device was successfully rebooted";
-localization.en["reload"] = "Reload";
+localization.en["reload"] = "Reload application";
 localization.en["reload_success"] = "The application was successfully reloaded";
 localization.en["rename"] = "Rename";
 localization.en["new_name"] = "New name";
@@ -94,6 +96,42 @@ localization.cs["downloader_info"] = "Informace o stahování";
 localization.cs["show_file"] = "Zobraziť soubor";
 localization.cs["create_folder"] = "Vytvořit nový adresář";
 localization.cs["folder_name"] = "Název adresáře";
+
+localization.de["reboot"] = "Gerät neustarten";
+localization.de["reboot_success"] = "Gerät wurde erfolgreich neu gestartet";
+localization.de["reload"] = "Anwendung neu laden";
+localization.de["reload_success"] = "Die Anwendung wurde erfolgreich neu geladen";
+localization.de["rename"] = "Umbenennen";
+localization.de["new_name"] = "Neuer Name";
+localization.de["save"] = "Speichern";
+localization.de["delete_file"] = "Datei löschen";
+localization.de["delete_file_now"] = "Datei jetzt löschen";
+localization.de["delete_file_confirm"] = "Möchten Sie die Datei löschen?";
+localization.de["drop_to_upload"] = "Klicken Sie hier oder legen Sie Dateien hier ab, um sie hochzuladen";
+localization.de["invalid_file_type"] = "Nicht unterstütztes Dateiformat";
+localization.de["file_too_big"] = "Die Datei ist zu groß ({{filesize}} MB), die maximale Größe ist {{maxFilesize}} MB";
+localization.de["downloader_info"] = "Informationen zum Herunterladen";
+localization.de["show_file"] = "Datei anzeigen";
+localization.de["create_folder"] = "Neuen Ordner erstellen";
+localization.de["folder_name"] = "Ordnernamen";
+
+localization.pt["reboot"] = "Reiniciar dispositivo";
+localization.pt["reboot_success"] = "O dispositivo foi reiniciado com sucesso";
+localization.pt["reload"] = "Recarregar a aplicação";
+localization.pt["reload_success"] = "A aplicação foi recarregada com sucesso";
+localization.pt["rename"] = "Renomear";
+localization.pt["new_name"] = "Novo nome";
+localization.pt["salvar"] = "Salvar";
+localization.pt["delete_file"] = "Excluir arquivo";
+localization.pt["delete_file_now"] = "Excluir arquivo agora";
+localization.pt["delete_file_confirm"] = "Deseja apagar o arquivo";
+localization.pt["drop_to_upload"] = "Clique aqui ou solte os arquivos aqui para enviar";
+localization.pt["invalid_file_type"] = "Tipo de arquivo não suportado";
+localization.pt["file_too_big"] = "O arquivo é muito grande ({{filesize}} MB), o tamanho máximo é {{maxFilesize}} MB";
+localization.pt["downloader_info"] = "Informações sobre o download";
+localization.pt["show_file"] = "Mostrar arquivo";
+localization.pt["create_folder"] = "Criar nova pasta";
+localization.pt["folder_name"] = "Nome da pasta";
 
 function localizeString(key) {
 	return localization[choosen_language][key];
