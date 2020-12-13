@@ -18,7 +18,7 @@ Please update both parts (otherwise I will have to use Google Translate and that
 - German (thanks to Stefan Preitschaft)
 - Italian (thanks to Michele Fioretti)
 - Polish (thanks to Piotr Bujalski)
-- Portugese (thanks to Jorge Soares)
+- Portuguese (thanks to Jorge Soares)
 - Slovak
 
 
