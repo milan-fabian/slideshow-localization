@@ -15,6 +15,7 @@ Please update both parts (otherwise I will have to use Google Translate and that
 ## Current languages:
 - Czech (thanks to Aleš Obst)
 - English
+- French (thanks to Ahmed Karboubi)
 - German (thanks to Stefan Preitschaft)
 - Italian (thanks to Michele Fioretti)
 - Polish (thanks to Piotr Bujalski)

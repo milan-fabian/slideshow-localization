@@ -6,6 +6,7 @@ localization["sk"] = {};
 localization["cs"] = {};
 localization["de"] = {};
 localization["pt"] = {};
+localization["fr"] = {};
 
 localization.en["reboot"] = "Reboot device";
 localization.en["reboot_success"] = "Device was successfully rebooted";
@@ -132,6 +133,24 @@ localization.pt["downloader_info"] = "Informações sobre o download";
 localization.pt["show_file"] = "Mostrar arquivo";
 localization.pt["create_folder"] = "Criar nova pasta";
 localization.pt["folder_name"] = "Nome da pasta";
+
+localization.fr["reboot"] = "Redémarrer l'appareil";
+localization.fr["reboot_success"] = "L'appareil a été redémarré avec succès";
+localization.fr["reload"] = "Relancer l'application";
+localization.fr["reload_success"] = "L'application a été relancée avec succès";
+localization.fr["rename"] = "Renommer";
+localization.fr["new_name"] = "Nouveau nom";
+localization.fr["save"] = "Enregistrer";
+localization.fr["delete_file"] = "Supprimer le fichier";
+localization.fr["delete_file_now"] = "Supprimer le fichier maintenant";
+localization.fr["delete_file_confirm"] = "Voulez-vous supprimer le fichier";
+localization.fr["drop_to_upload"] = "Cliquez ici ou déposez les fichiers ici pour les charger";
+localization.fr["invalid_file_type"] = "Type de fichier non pris en charge";
+localization.fr["file_too_big"] = "Le fichier est trop volumineux ({{filesize}} MB), la taille maximale est de {{maxFilesize}} MB";
+localization.fr["downloader_info"] = "Informations sur le téléchargement";
+localization.fr["show_file"] = "Afficher le fichier";
+localization.fr["create_folder"] = "Créer un nouveau dossier";
+localization.fr["folder_name"] = "Nom du dossier";
 
 function localizeString(key) {
 	return localization[choosen_language][key];
