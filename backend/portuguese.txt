@@ -496,7 +496,7 @@ file_download_successful=O download foi bem-sucedido, número de arquivos baixad
 file_download_unsuccessful=O download do arquivo falhou, consulte os registros para obter mais detalhes
 rotation=Rotação
 rotation_help=Rotação do layout da tela em graus (0°, 90°, 180° ou 270°). Use o reprodutor de vídeo aprimorado para reproduzir vídeos quando a rotação estiver definida (consulte Configurações do dispositivo).
-cloud_grabber_login_none=Nenhuma conta% s foi associada ainda.
+cloud_grabber_login_none=Nenhuma conta %s foi associada ainda.
 cloud_grabber_login=Entrar com a conta %s
 cloud_grabber_login_help=Clique no botão acima para fazer o login com seu %s sccount. O navegador será aberto na <b>tela do dispositivo</b> com o formulário de login (isso significa que você precisará de acesso direto ao dispositivo). Depois de fazer login, volte ao aplicativo para continuar. Leia a política de privacidade em <a href="https://slideshow.digital/privacy-policy/" target="_blank">https://slideshow.digital/privacy-policy</a> antes de continuar.
 cloud_grabber_logout=Sair da conta %s
