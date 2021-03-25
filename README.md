@@ -12,7 +12,10 @@ Localization of Slideshow software is divided into two parts (see two folders in
 
 Please update both parts (otherwise I will have to use Google Translate and that might not be pretty :smiley:). Use UTF-8 encoding for the files.
 
+If you use a translation service (such as Google Translate) as a help, please review every translation manually afterwards. Such services tend to break some of the formatting and the quality of the translation without manual check is not sufficient.
+
 ## Current languages:
+- Croatian (thanks to Josip Papić)
 - Czech (thanks to Aleš Obst)
 - English
 - French (thanks to Ahmed Karboubi)
