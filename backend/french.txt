@@ -688,3 +688,7 @@ screen_layout_refresh_wait_help=Changez la disposition de l'écran en fonction d
 mqtt_topic_prefix=MQTT topic prefix
 bold_time=Afficher l'heure en gras
 bold_time_help=Indique si la partie horaire doit être affichée en caractères gras. 
+reboot_on_hdmi_plug_in=Redémarrer sur prise HDMI
+reboot_on_hdmi_plug_in_help=Après avoir détecté que le câble HDMI était branché, l'application redémarrera automatiquement l'appareil. Utilisable sur certains appareils ayant des problèmes de décodage vidéo lorsqu'aucun appareil HDMI n'est branché.
+preload_items_in_playlist=Précharger des éléments dans la liste de lecture
+preload_items_in_playlist_help=Autorisez le chargement de certains éléments (par exemple, des fichiers vidéo) à l'avance, afin que le délai entre les éléments soit plus court.

@@ -688,3 +688,7 @@ screen_layout_refresh_wait_help=Altere o layout da tela com base no intervalo ou
 mqtt_topic_prefix=MQTT topic prefix
 bold_time=Exibir hora em negrito
 bold_time_help=Se a parte do tempo deve ser exibida em negrito. 
+reboot_on_hdmi_plug_in=Reinicie no plug-in HDMI
+reboot_on_hdmi_plug_in_help=Depois de detectar que o cabo HDMI foi conectado, o aplicativo irá reiniciar automaticamente o dispositivo. Pode ser usado em alguns dispositivos com problemas de decodificação de vídeo quando nenhum dispositivo HDMI está conectado.
+preload_items_in_playlist=Pré-carregar itens na lista de reprodução
+preload_items_in_playlist_help=Permitir o carregamento de alguns dos itens (por exemplo, arquivos de vídeo) com antecedência, para que o atraso entre os itens seja menor. 

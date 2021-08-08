@@ -688,3 +688,7 @@ screen_layout_refresh_wait_help=Change the screen layout based on interval or ti
 mqtt_topic_prefix=MQTT topic prefix
 bold_time=Display time in bold
 bold_time_help=Whether the time part should be displayed in bold font.
+reboot_on_hdmi_plug_in=Reboot on HDMI plug in
+reboot_on_hdmi_plug_in_help=After detecting the HDMI cable was plugged in, the app will automatically reboot the device. Usable on some devices with video decoding problems when no HDMI device is plugged in.
+preload_items_in_playlist=Preload items in playlist
+preload_items_in_playlist_help=Allow loading some of the items (e.g. video files) in advance, so the delay between items is shorter.

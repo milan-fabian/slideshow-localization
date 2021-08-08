@@ -688,3 +688,7 @@ screen_layout_refresh_wait_help=Promijenite izgled zaslona na temelju intervala 
 mqtt_topic_prefix=MQTT topic prefix
 bold_time=Prikaz vremena podebljano
 bold_time_help=Treba li vremenski dio prikazati podebljanim fontom. 
+reboot_on_hdmi_plug_in=Ponovo pokrenite na HDMI priključku
+reboot_on_hdmi_plug_in_help=Nakon što otkrije da je HDMI kabel priključen, aplikacija će automatski ponovno pokrenuti uređaj. Koristi se na nekim uređajima s problemima dekodiranja videa ako nije priključen HDMI uređaj. 
+preload_items_in_playlist=Unaprijed učitajte stavke na popisu za reprodukciju
+preload_items_in_playlist_help=Dopustite unaprijed učitavanje nekih stavki (npr. Video datoteka) kako bi kašnjenje između stavki bilo kraće.

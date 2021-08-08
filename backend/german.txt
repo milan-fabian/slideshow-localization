@@ -688,3 +688,7 @@ screen_layout_refresh_wait_help=Ändern Sie das Bildschirmlayout basierend auf d
 mqtt_topic_prefix=MQTT topic prefix
 bold_time=Zeit in Fettdruck anzeigen
 bold_time_help=Gibt an, ob der Zeitteil in Fettdruck angezeigt werden soll. 
+reboot_on_hdmi_plug_in=Neustart über HDMI-Plug-in
+reboot_on_hdmi_plug_in_help=Nachdem das HDMI-Kabel eingesteckt wurde, startet die App das Gerät automatisch neu. Verwendbar auf einigen Geräten mit Videodecodierungsproblemen, wenn kein HDMI-Gerät angeschlossen ist. 
+preload_items_in_playlist=Elemente in Playlist vorladen
+preload_items_in_playlist_help=Lassen Sie einige der Elemente (z. B. Videodateien) im Voraus laden, damit die Verzögerung zwischen den Elementen kürzer ist.

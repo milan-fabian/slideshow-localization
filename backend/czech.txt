@@ -688,3 +688,7 @@ screen_layout_refresh_wait_help=Změnit rozložení obrazovky na základě inter
 mqtt_topic_prefix=Předpona MQTT topicu
 bold_time=Zobrazit čas tučně
 bold_time_help=Zda má být čas zobrazen tučně (bold). 
+reboot_on_hdmi_plug_in=Restartovat zařízení při připojení HDMI kabelu
+reboot_on_hdmi_plug_in_help=Po zapojení kabelu HDMI se zařízení automaticky restartuje. Vhodné pro některá zařízení s problémy při dekódování videa, pokud není zapojeno žádné HDMI zařízení. 
+preload_items_in_playlist=Prednačítat položky v playlistu
+preload_items_in_playlist_help=Povolit načítání některých položek (např. video soubory) dopředu, aby byla pauza mezi položkami kratší.

@@ -688,3 +688,7 @@ screen_layout_refresh_wait_help=Zmień układ ekranu na podstawie interwału lub
 mqtt_topic_prefix=MQTT topic prefix
 bold_time=Wyświetl czas pogrubioną czcionką
 bold_time_help=Określa, czy część czasu ma być wyświetlana pogrubioną czcionką. 
+reboot_on_hdmi_plug_in=Uruchom ponownie po wtyczce HDMI
+reboot_on_hdmi_plug_in_help=Po wykryciu, że kabel HDMI został podłączony, aplikacja automatycznie zrestartuje urządzenie. Można używać na niektórych urządzeniach z problemami z dekodowaniem wideo, gdy żadne urządzenie HDMI nie jest podłączone.
+preload_items_in_playlist=Wstępnie wczytuj elementy z listy odtwarzania
+preload_items_in_playlist_help=Zezwól na wczytanie niektórych elementów (np. plików wideo) z wyprzedzeniem, aby opóźnienie między elementami było krótsze.
