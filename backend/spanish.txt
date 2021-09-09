@@ -299,7 +299,7 @@ reload_question=¿Quieres reiniciar la aplicación?
 reload=Reiniciar aplicación
 reload_info=Después de presionar recargar, la aplicación en el dispositivo se cerrará y comenzará de nuevo. Puede volver a iniciar sesión en aproximadamente 20 segundos.
 reboot_reload=Reiniciar / Recargar
-weather_api_key_help=Clave API para descargar información meteorológica.<br> Para OpenWeatherMap, se puede recuperar de forma gratuita en <a href="https://openweathermap.org/appid"> https://openweathermap.org/appid</a >.<br> El clima de Here Destination se puede obtener de forma gratuita en <a href="https://developer.here.com/projects"> https://developer.here.com/projects</a>.<br> Revise las licencias del proveedor de información meteorológica antes de usarlo.
+weather_api_key_help=Clave API para descargar información meteorológica.<br>Para OpenWeatherMap, se puede recuperar de forma gratuita en <a href="https://openweathermap.org/appid"> https://openweathermap.org/appid</a >.<br>El clima de Here Destination se puede obtener de forma gratuita en <a href="https://developer.here.com/projects"> https://developer.here.com/projects</a>.<br>Revise las licencias del proveedor de información meteorológica antes de usarlo.
 thread=Hilo
 threads=Hilos
 shell_console=Terminal
@@ -335,9 +335,9 @@ main_panel=Panel principal
 left=Izquierda
 top=Derecha
 date_format=Formato de fecha
-date_format_help=Formato de la fecha mostrada, algunos ejemplos:<br> "EEEE, dd.M.yyyy" - miércoles, 20.3.2019<br> "EEEE, mm / dd / aaaa" - miércoles, 03/20/2019<br> " MMM dd, yyyy "- 20 de marzo de 2019<br><i> Se pueden encontrar más detalles en <a href =" https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat .html "> https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html </a>.</i>
+date_format_help=Formato de la fecha mostrada, algunos ejemplos:<br>"EEEE, dd.M.yyyy" - miércoles, 20.3.2019<br>"EEEE, mm / dd / aaaa" - miércoles, 03/20/2019<br>" MMM dd, yyyy "- 20 de marzo de 2019<br><i> Se pueden encontrar más detalles en <a href =" https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat .html "> https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html </a>.</i>
 time_format=Formato de hora
-time_format_help=Formato de la hora mostrada, algunos ejemplos:<br> "HH: mm" - 20:33<br> "h: mm a" - 8:33 PM<br><i> Se pueden encontrar más detalles en <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">https://docs.oracle.com/javase/7/docs/api/java/text/ SimpleDateFormat.html </a>.</i>
+time_format_help=Formato de la hora mostrada, algunos ejemplos:<br>"HH: mm" - 20:33<br>"h: mm a" - 8:33 PM<br><i> Se pueden encontrar más detalles en <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">https://docs.oracle.com/javase/7/docs/api/java/text/ SimpleDateFormat.html </a>.</i>
 date_format_empty=EL formato de hora no puede estar vacío
 date_format_invalid=El formato de la fecha es inválido
 time_format_empty=El formato de tiempo no puede estar vacío
@@ -364,11 +364,11 @@ screen_layout_timings_help=Asignar el diseño de la pantalla que debe mostrarse 
 screen_layout_timings_save_success=La asignación de los intervalos de tiempo se guardó con éxito
 main_panel_help=Qué panel debe ser manejable con el teclado
 database_connect=Conexión a la base de datos
-database_connect_help=¡Esta funcionalidad es solo para usuarios avanzados! ¡El uso incorrecto puede provocar un mal funcionamiento de la aplicación!<br> Utilice consultas SQL básicas para comunicarse con la base de datos interna (SELECCIONAR, ACTUALIZAR, etc.).
+database_connect_help=¡Esta funcionalidad es solo para usuarios avanzados! ¡El uso incorrecto puede provocar un mal funcionamiento de la aplicación!<br>Utilice consultas SQL básicas para comunicarse con la base de datos interna (SELECCIONAR, ACTUALIZAR, etc.).
 database_connect_error=Error al ejecutar la consulta
 query=Consulta
 enviar=Enviar
-shell_console_help=¡Esta funcionalidad es solo para usuarios avanzados! El uso incorrecto puede provocar un mal funcionamiento de la aplicación y del dispositivo.<br> La consola de shell de Android (línea de comandos) acepta comandos básicos de Linux.
+shell_console_help=¡Esta funcionalidad es solo para usuarios avanzados! El uso incorrecto puede provocar un mal funcionamiento de la aplicación y del dispositivo.<br>La consola de shell de Android (línea de comandos) acepta comandos básicos de Linux.
 shell_console_error=Error al ejecutar la consulta
 result=Resultado
 salida=Salida
@@ -592,7 +592,7 @@ stroke=Linea de borde
 users_help=Lista de usuarios, que pueden acceder a esta interfaz web.
 password_change_help=Cambiar la contraseña de la interfaz web para el usuario actualmente registrado.
 weather_text=Plantilla de texto
-weather_text_help=Plantilla para el texto de información meteorológica. Puede contener 2x "% .0f" marcador de posición para el rango de temperatura. Todos los caracteres, excepto el formato de fecha, deben ir entre comillas simples (').<br> Consulte <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html "> https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html </a> para la especificación del formato de fecha.
+weather_text_help=Plantilla para el texto de información meteorológica. Puede contener 2x "% .0f" marcador de posición para el rango de temperatura. Todos los caracteres, excepto el formato de fecha, deben ir entre comillas simples (').<br>Consulte <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html "> https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html </a> para la especificación del formato de fecha.
 launcher_clear=Desactivar presentación de diapositivas como aplicación de inicio / iniciador
 launcher_clear_success=Desajustar la aplicación Launcher / Home fue exitosa
 android_settings=Configuración de Android
@@ -664,7 +664,7 @@ enabled=Activado
 disabled=Desactivado
 disable=Desactivar
 device_owner=propietario del dispositivo
-device_admin_help=¡Utilice esta función con mucho cuidado, puede provocar que el dispositivo se bloquee por completo!<br> Deberá deshabilitar el propietario y el administrador del dispositivo antes de desinstalar esta aplicación.
+device_admin_help=¡Utilice esta función con mucho cuidado, puede provocar que el dispositivo se bloquee por completo!<br>Deberá deshabilitar el propietario y el administrador del dispositivo antes de desinstalar esta aplicación.
 device_admin=Administrador del dispositivo
 lock_task_packages=Establecer bloqueo de aplicación
 lock_task_mode=Bloquear modo de tarea (fijación de pantalla)
