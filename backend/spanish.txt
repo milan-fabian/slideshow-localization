@@ -188,7 +188,7 @@ reboot_device=Reiniciar dispositivo
 reboot_info=Después de presionar reiniciar, la pantalla se pondrá en blanco y el dispositivo dejará de responder. Puede volver a iniciar sesión en aproximadamente 2 minutos.
 reboot_question=¿Desea reiniciar el dispositivo?
 update_apply_reload=Reinicie la aplicación para aplicar la actualización
-item_path_help=Según el tipo: <br> <b>Archivo único:</b> nombre del archivo subido.<br><b>Transmisión de audio / video:</b>dirección URL de la transmisión, incluido "http://" o "https://". <br><b>Archivos alfabéticamente / aleatoriamente: </b> puede elegir varios archivos o carpetas con comodín (*), por ejemplo, todos los archivos con extensión jpg se pueden agregar como "*. jpg ", todos los archivos en la subcarpeta con el nombre" ventas "se pueden agregar como" ventas / * "o todos los archivos PDF en las subcarpetas que comienzan con" promoción "se pueden agregar como" promoción * / *. pdf "(sin comillas).
+item_path_help=Según el tipo: <br><b>Archivo único:</b> nombre del archivo subido.<br><b>Transmisión de audio / video:</b>dirección URL de la transmisión, incluido "http://" o "https://". <br><b>Archivos alfabéticamente / aleatoriamente: </b> puede elegir varios archivos o carpetas con comodín (*), por ejemplo, todos los archivos con extensión jpg se pueden agregar como "*. jpg ", todos los archivos en la subcarpeta con el nombre" ventas "se pueden agregar como" ventas / * "o todos los archivos PDF en las subcarpetas que comienzan con" promoción "se pueden agregar como" promoción * / *. pdf "(sin comillas).
 unsupported_extension=Fichero no compatible
 downloader_log_empty=Sin cambios desde el último inicio
 downloader_queue_length=Cola de descargas
@@ -498,7 +498,7 @@ rotation=Rotación
 rotation_help=Rotación del diseño de la pantalla en grados (0 °, 90 °, 180 ° o 270 °). Use el reproductor de video mejorado para reproducir videos cuando la rotación está configurada (consulte Configuración del dispositivo).
 cloud_grabber_login_none=Aún no se ha asociado ninguna cuenta %s .
 cloud_grabber_login=Iniciar sesión con la cuenta %s
-cloud_grabber_login_help=Haga clic en el botón de arriba para iniciar sesión con su cuenta %s. El navegador se abrirá en la <b>pantalla del dispositivo</b> con el formulario de inicio de sesión (eso significa que necesitará acceso directo al dispositivo). Después de iniciar sesión, regrese a la aplicación para continuar. Revise la política de privacidad en <a href="https://slideshow.digital/privacy-policy/" target="_blank"> https://slideshow.digital/privacy-policy </a> antes de continuar.
+cloud_grabber_login_help=Haga clic en el botón de arriba para iniciar sesión con su cuenta %s. El navegador se abrirá en la<b>pantalla del dispositivo</b> con el formulario de inicio de sesión (eso significa que necesitará acceso directo al dispositivo). Después de iniciar sesión, regrese a la aplicación para continuar. Revise la política de privacidad en <a href="https://slideshow.digital/privacy-policy/" target="_blank"> https://slideshow.digital/privacy-policy </a> antes de continuar.
 cloud_grabber_logout=Salir de la cuenta %s
 cloud_grabber_logout_help=Después de cerrar la sesión, la sincronización con %s ya no funcionará
 cloud_grabber_no_folder_found=No se encontró carpeta en %s conectado
