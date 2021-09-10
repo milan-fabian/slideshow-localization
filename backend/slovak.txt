@@ -635,7 +635,6 @@ image_respect_orientation_help=Prečítať orientáciu fotky z JPEG EXIF atribú
 general_settings=Všeobecné nastavenia
 onscreen_formatting=Formátovanie na obrazovke
 weather_forecast=Predpoveď počasia
-rss_messages=RSS správy
 network_interfaces=Sieťové rozhrania
 onscreen_control=Ovládanie na obrazovke
 startup=Štart systému

@@ -635,7 +635,6 @@ image_respect_orientation_help=Očitajte orijentaciju slike iz JPEG EFIX atribut
 general_settings=Opće postavke
 onscreen_formatting=Formatiranje na zaslonu
 weather_forecast=Vremenska prognoza
-rss_messages=RSS poruke
 network_interfaces=Mrežna sučelja
 onscreen_control=Upravljanje na zaslonu
 startup=Pokretanje

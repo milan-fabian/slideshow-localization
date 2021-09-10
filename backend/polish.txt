@@ -635,7 +635,6 @@ image_respect_orientation_help=Odczytaj orientację obrazu z atrybutów JPEG EFI
 general_settings=Ustawienia główne
 onscreen_formatting=Formatowanie na ekranie
 weather_forecast=Prognoza pogody
-rss_messages=Wiadomości RSS
 network_interfaces=Interfejsy sieciowe
 onscreen_control=Sterowanie na ekranie
 startup=Uruchomienie

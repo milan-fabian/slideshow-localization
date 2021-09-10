@@ -635,7 +635,6 @@ image_respect_orientation_help=Lisez l'orientation de l'image à partir des attr
 general_settings=Réglages généraux
 onscreen_formatting=Formatage à l'écran
 weather_forecast=Prévisions météorologiques
-rss_messages=Messages RSS
 network_interfaces=Interfaces réseau
 onscreen_control=Contrôle à l'écran
 startup=Commencez

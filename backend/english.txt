@@ -635,7 +635,6 @@ image_respect_orientation_help=Read image orientation from JPEG EFIX attributes 
 general_settings=General settings
 onscreen_formatting=On-screen formatting
 weather_forecast=Weather forecast
-rss_messages=RSS messages
 network_interfaces=Network interfaces
 onscreen_control=On-screen control
 startup=Startup

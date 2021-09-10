@@ -635,7 +635,6 @@ image_respect_orientation_help=Leia a orientação da imagem dos atributos JPEG 
 general_settings=Configurações Gerais
 onscreen_formatting=Formatação na tela
 weather_forecast=Previsão do tempo
-rss_messages=Mensagens RSS
 network_interfaces=Interfaces de rede
 onscreen_control=Controle na tela
 startup=Comece
