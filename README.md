@@ -24,6 +24,7 @@ If you use a translation service (such as Google Translate) as a help, please re
 - Polish (thanks to Piotr Bujalski)
 - Portuguese (thanks to Jorge Soares)
 - Slovak
+- Spanish (thanks to Rafael García)
 
 
 ## About Slideshow

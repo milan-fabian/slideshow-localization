@@ -7,6 +7,7 @@ localization["cs"] = {};
 localization["de"] = {};
 localization["pt"] = {};
 localization["fr"] = {};
+localization["hr"] = {};
 localization["es"] = {};
 
 localization.en["reboot"] = "Reboot device";
@@ -152,6 +153,24 @@ localization.fr["downloader_info"] = "Informations sur le téléchargement";
 localization.fr["show_file"] = "Afficher le fichier";
 localization.fr["create_folder"] = "Créer un nouveau dossier";
 localization.fr["folder_name"] = "Nom du dossier";
+
+localization.hr["reboot"] = "Ponovo pokrenite uređaj";
+localization.hr["reboot_success"] = "Uređaj je uspješno ponovno pokrenut";
+localization.hr["reload"] = "Ponovo učitaj aplikaciju";
+localization.hr["reload_success"] = "Aplikacija je uspješno ponovno učitana";
+localization.hr["rename"] = "Preimenovati";
+localization.hr["new_name"] = "Novo ime";
+localization.hr["save"] = "Uštedjeti";
+localization.hr["delete_file"] = "Izbrisati dateoteku";
+localization.hr["delete_file_now"] = "Izbriši datoteku odmah";
+localization.hr["delete_file_confirm"] = "Želite li izbrisati datoteku";
+localization.hr["drop_to_upload"] = "Kliknite ovdje ili ispustite datoteke ovdje da biste ih prenijeli";
+localization.hr["invalid_file_type"] = "Nepodržana vrsta datoteke";
+localization.hr["file_too_big"] = "Datoteka je prevelika ({{filesize}} MB), maksimalna veličina je {{maxFilesize}} MB";
+localization.hr["downloader_info"] = "Informacije o preuzimanju";
+localization.hr["show_file"] = "Prikaži datoteku";
+localization.hr["create_folder"] = "Stvori novu mapu";
+localization.hr["folder_name"] = "Ime datoteke ";
 
 localization.es["reboot"] = "Reiniciar dispositivo";
 localization.es["reboot_success"] = "Dispositivo reiniciado correctamente";

@@ -1,4 +1,4 @@
-this_lang=Spanish
+this_lang=Español
 language=Idioma
 volume=Volumen
 welcome_message=Interfaz web de Slideshow - Digital Signage player
