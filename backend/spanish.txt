@@ -320,11 +320,11 @@ screen_layouts=Layout de la pantalla
 current_screen_resolution_is=La resolución actual es: 
 screen_resolution=Resolución de pantalla
 width=Anchura
-height=altura
-screen_layout_save_success=Distribución de la pantalla guardada con éxito
+height=Altura
+screen_layout_save_success=Layout de la pantalla guardada con éxito
 screen_layout_add_new=Añadir nueva distribución
-edit_screen_layout=Editar distribución
-refresh=ACtualizar
+edit_screen_layout=Editar layout
+refresh=Actualizar
 screen_orientation=Orientación de la pantalla
 screen_orientation_DEFAULT=Por defecto
 screen_orientation_LANDSCAPE=Horizontal
@@ -334,7 +334,7 @@ screen_layout_timing_when=Calendarización de la distribución de pantalla
 screen_layout_timing_when_help=Haga clic en el nombre del día para elegir el día completo. Si desea cancelar la visualización de este diseño de pantalla en el tiempo elegido, verifique ese tiempo en un diseño de pantalla diferente o edítelo <a href="/screen_layout/timing">aquí</a>.
 main_panel=Panel principal
 left=Izquierda
-top=Derecha
+top=Arriba
 date_format=Formato de fecha
 date_format_help=Formato de la fecha mostrada, algunos ejemplos:<br>"EEEE, dd.M.yyyy" - miércoles, 20.3.2019<br>"EEEE, mm / dd / aaaa" - miércoles, 03/20/2019<br>"MMM dd, yyyy" - 20 de marzo de 2019<br><i>Se pueden encontrar más detalles en <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html</a>.</i>
 time_format=Formato de hora
