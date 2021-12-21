@@ -23,6 +23,7 @@ If you use a translation service (such as Google Translate) as a help, please re
 - Italian (thanks to Michele Fioretti)
 - Polish (thanks to Piotr Bujalski)
 - Portuguese (thanks to Jorge Soares)
+- Russian (thanks to Sergej Karpovič)
 - Slovak
 - Spanish (thanks to Rafael García)
 

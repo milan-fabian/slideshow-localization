@@ -9,6 +9,7 @@ localization["pt"] = {};
 localization["fr"] = {};
 localization["hr"] = {};
 localization["es"] = {};
+localization["ru"] = {};
 
 localization.en["reboot"] = "Reboot device";
 localization.en["reboot_success"] = "Device was successfully rebooted";
@@ -189,6 +190,24 @@ localization.es["downloader_info"] = "Información sobre la descarga";
 localization.es["show_file"] = "Mostrar el archivo";
 localization.es["create_folder"] = "Crear nuevo archivo";
 localization.es["folder_name"] = "Nombre del fichero";
+
+localization.ru["reboot"] = "Перезагрузить устройство";
+localization.ru["reboot_success"] = "Устройство успешно перезагружено";
+localization.ru["reload"] = "Перезагрузить приложение";
+localization.ru["reload_success"] = "Приложение было успешно перезагружено";
+localization.ru["rename"] = "Переименовать";
+localization.ru["new_name"] = "Новое имя";
+localization.ru["save"] = "Сохранить";
+localization.ru["delete_file"] = "Удалить файл";
+localization.ru["delete_file_now"] = "Удалить файл сейчас";
+localization.ru["delete_file_confirm"] = "Вы хотите удалить файл";
+localization.ru["drop_to_upload"] = "Щелкните здесь или перетащите сюда файлы для загрузки";
+localization.ru["invalid_file_type"] = "Неподдерживаемый тип файла";
+localization.ru["file_too_big"] = "Файл слишком большой ({{файл}} МБ), максимальный размер составляет {{maxFilesize}} МБ";
+localization.ru["downloader_info"] = "Информация о загрузке";
+localization.ru["show_file"] = "Показать файл";
+localization.ru["create_folder"] = "Создать новую папку";
+localization.ru["folder_name"] = "Имя папки"; 
 
 function localizeString(key) {
 	return localization[choosen_language][key];
