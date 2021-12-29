@@ -699,3 +699,4 @@ font_size_help=Optionale Schriftgröße des Textes in Pixel. Wenn keine Größe 
 clone_screen_layout=Dieses Bildschirmlayout klonen
 need_weather_api_key=Es gibt einen Artikel vom Typ Wetter, für diesen Artikel muss der API-Schlüssel eingegeben werden. Bitte richten Sie es im Menü Einstellungen - Geräteeinstellungen ein.
 screen_layout_clone_success=Bildschirmlayout wurde erfolgreich geklont, Sie können es bearbeiten
+permission_start_at_boot_error=Einstellungen können nicht direkt geöffnet werden. Bitte versuchen Sie, zu Android-Einstellungen - Apps - Diese App - Berechtigungen zu navigieren und "Oben anzeigen" oder "Über anderen Apps anzeigen" zuzulassen. 

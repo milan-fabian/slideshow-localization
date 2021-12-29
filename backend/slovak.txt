@@ -699,3 +699,4 @@ font_size_help=Nepovinná veľkosť fontu v pixeloch. Ak nie je zadaná žiadna 
 clone_screen_layout=Naklonovať toto rozloženie obrazovky
 need_weather_api_key=Existuje položka s typom Počasie, API kľúč musí byť nastavený pre tento typ položky. Prosím nastavte prístup cez menu Nastavenia - Nastavenia zariadenia.
 screen_layout_clone_success=Rozloženie obrazovky bolo úspešne naklonované, môžete ho upraviť
+permission_start_at_boot_error=Nastavenia nie je možné otvoriť priamo. Skúste prejsť do časti Nastavenia systému Android – Aplikácie – táto aplikácia – Povolenia a povoľte „Zobraziť navrchu“ alebo „Zobraziť cez iné aplikácie“. 

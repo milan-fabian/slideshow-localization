@@ -699,3 +699,4 @@ font_size_help=Tamaño de fuente opcional del texto en píxeles. Si no se ingres
 clone_screen_layout=Clonar este diseño de pantalla
 need_weather_api_key=Hay un elemento con el tipo Clima, se debe ingresar la clave API para este tipo de elemento. Por favor, configúrelo en el menú Configuración - Configuración del dispositivo.
 screen_layout_clone_success=El diseño de la pantalla se clonó correctamente, puede editarlo
+permission_start_at_boot_error=No se puede abrir la configuración directamente. Intente navegar a Configuración de Android - Aplicaciones - esta aplicación - Permisos y permita "Aparecer en la parte superior" o "Mostrar sobre otras aplicaciones".

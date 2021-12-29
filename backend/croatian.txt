@@ -699,3 +699,4 @@ font_size_help=Opcionalna veličina fonta teksta u pikselima. Ako se ne unese ve
 clone_screen_layout=Klonirajte ovaj izgled zaslona 
 need_weather_api_key=Postoji stavka s tipom Vrijeme, API ključ mora biti unesen za ovu vrstu stavke. Postavite izbornik Postavke - Postavke uređaja.
 screen_layout_clone_success=Izgled zaslona uspješno je kloniran, možete ga urediti
+permission_start_at_boot_error=Ne mogu izravno otvoriti postavke. Pokušajte prijeći na Postavke Androida - Aplikacije - ova aplikacija - Dopuštenja i dopustite "Pojavi se na vrhu" ili "Prikaz preko drugih aplikacija".
