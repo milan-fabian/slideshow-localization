@@ -699,3 +699,4 @@ font_size_help=Dimensione del carattere opzionale del testo in pixel. Se non vie
 clone_screen_layout=Clona questo layout dello schermo
 need_weather_api_key=C'è un oggetto di tipo Meteo, la chiave API deve essere inserita per questo tipo di oggetto. Si prega di impostare il menu Impostazioni - Impostazioni dispositivo.
 screen_layout_clone_success=Il layout dello schermo è stato clonato con successo, puoi modificarlo
+permission_start_at_boot_error=Impossibile aprire le impostazioni direttamente. Prova a navigare in Impostazioni Android - App - questa app - Autorizzazioni e consenti "Appari in primo piano" o "Visualizza su altre app".

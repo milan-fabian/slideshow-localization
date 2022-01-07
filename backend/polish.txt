@@ -699,3 +699,4 @@ font_size_help=Opcjonalny rozmiar czcionki tekstu w pikselach. Jeśli nie zostan
 clone_screen_layout=Sklonuj ten układ ekranu
 need_weather_api_key=Istnieje pozycja typu Pogoda, dla tego typu pozycji należy podać klucz API. Ustaw to menu Ustawienia - Ustawienia urządzenia.
 screen_layout_clone_success=Układ ekranu został pomyślnie sklonowany, możesz go edytować
+permission_start_at_boot_error=Nie można bezpośrednio otworzyć ustawień. Spróbuj przejść do Ustawienia Androida – Aplikacje – ta aplikacja – Uprawnienia i zezwól na „Wyświetlaj na wierzchu” lub „Wyświetlaj nad innymi aplikacjami”.

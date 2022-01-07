@@ -699,3 +699,4 @@ font_size_help=Taille de police facultative du texte en pixels. Si aucune taille
 clone_screen_layout=Cloner cette disposition d'écran
 need_weather_api_key=Il existe un élément de type Météo, la clé API doit être saisie pour ce type d'élément. Veuillez le configurer dans le menu Paramètres - Paramètres de l'appareil.
 screen_layout_clone_success=La disposition de l'écran a été clonée avec succès, vous pouvez la modifier
+permission_start_at_boot_error=Impossible d'ouvrir les paramètres directement. Veuillez essayer de naviguer vers Paramètres Android - Applications - cette application - Autorisations et autorisez "Apparaître en haut" ou "Afficher sur d'autres applications".

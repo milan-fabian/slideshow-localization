@@ -699,3 +699,4 @@ font_size_help=Optional font size of the text in pixels. If no size is entered, 
 clone_screen_layout=Clone this screen layout
 need_weather_api_key=There is an item with type Weather, API key has to be entered for this kind of item. Please set it up menu Settings - Device Settings.
 screen_layout_clone_success=Screen layout was successfully cloned, you can edit it
+permission_start_at_boot_error=Can't open settings directly. Please try navigating to Android Settings - Apps - this app - Permissions and allow "Appear on top" or "Display over other apps" permission.
