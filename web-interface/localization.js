@@ -10,6 +10,7 @@ localization["fr"] = {};
 localization["hr"] = {};
 localization["es"] = {};
 localization["ru"] = {};
+localization["ja"] = {};
 
 localization.en["reboot"] = "Reboot device";
 localization.en["reboot_success"] = "Device was successfully rebooted";
@@ -208,6 +209,24 @@ localization.ru["downloader_info"] = "Информация о загрузке";
 localization.ru["show_file"] = "Показать файл";
 localization.ru["create_folder"] = "Создать новую папку";
 localization.ru["folder_name"] = "Имя папки"; 
+
+localization.ja["reboot"] = "デバイスを再起動します。";
+localization.ja["reboot_success"] = "デバイスは正常に再起動されました。";
+localization.ja["reload"] = "アプリケーションをリロードします。";
+localization.ja["reload_success"] = "アプリケーションは正常にリロードされました。";
+localization.ja["rename"] = "名前を変更";
+localization.ja["new_name"] = "新しい名前";
+localization.ja["save"] = "保存";
+localization.ja["delete_file"] = "ファイルを削除する。";
+localization.ja["delete_file_now"] = "今すぐファイルを削除";
+localization.ja["delete_file_confirm"] = "ファイルを削除しますか？";
+localization.ja["drop_to_upload"] = "ここをクリックするか、ファイルをここにドロップしてアップロードしてください。";
+localization.ja["invalid_file_type"] = "サポートされていないファイルタイプ";
+localization.ja["file_too_big"] = "ファイルが大きすぎます ({{filesize}} MB), 最大サイズは{{maxFilesize}} MBです。";
+localization.ja["downloader_info"] = "ダウンロードに関する情報";
+localization.ja["show_file"] = "ファイルを表示";
+localization.ja["create_folder"] = "新しいフォルダを作成します。";
+localization.ja["folder_name"] = "フォルダ名";
 
 function localizeString(key) {
 	return localization[choosen_language][key];
