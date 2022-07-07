@@ -708,6 +708,14 @@ new_install_message=<p>Merci d'avoir installé Slideshow - Digital Signage pla
 updated_version_message=<p>L'application Slideshow a été mise à jour avec succès vers une version plus récente.</p><p>Vous pouvez trouver de la documentation sur les fonctionnalités sur <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> et regardez des tutoriels sur <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- L'équipe de développement --</span>
 welcome=Bienvenue
 mqtt_report_data=Rapporter les données via MQTT
-mqtt_report_data_help=Envoyez automatiquement les informations et les statistiques sur l'appareil via MQTT toutes les 2 minutes.<br><i>Un rechargement est nécessaire pour appliquer cette modification.</i>
+mqtt_report_data_help=Envoyez automatiquement les informations sur l'appareil via MQTT toutes les 2 minutes.<br><i>Un rechargement est nécessaire pour appliquer cette modification.</i>
 mqtt_device_token=Nom du sujet MQTT
 mqtt_device_token_help=Si elle n'est pas saisie, l'adresse MAC de l'appareil sera utilisée (si disponible).<br><i>Un rechargement est nécessaire pour appliquer cette modification.</i>
+mqtt_report_statistics=Statistiques de rapport via MQTT
+mqtt_report_statistics_help=Signaler les statistiques d'affichage des fichiers via MQTT<br><i>Un rechargement est nécessaire pour appliquer cette modification.</i>
+license_key_enter=Entrez la clé de licence
+free_trial=Free trial
+licence_key_how_to_get=Veuillez contacter le support pour obtenir la clé de licence
+license_key_device_id=Entrez la clé de licence ci-dessous pour l'ID d'appareil suivant
+license_key_valid=La clé de licence est valide, l'application va être redémarrée
+license_key_invalid=La clé de licence n'est pas valide, veuillez vérifier si elle a été saisie correctement

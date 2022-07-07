@@ -708,6 +708,14 @@ new_install_message=<p>Děkujeme, že jste si nainstalovali Slideshow - Digital 
 updated_version_message=<p>Aplikace Slideshow byla úspěšně aktualizována na novější verzi.</p><p>Dokumentaci funkcí naleznete na <a href="https://slideshow.digital/documentation/" target="_blank">https:// slideshow.digital/documentation/</a>, online tutoriály si můžete prohlédnout na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- Vývojový tým --</span>
 welcome=Vítejte
 mqtt_report_data=Zasílat report přes MQTT
-mqtt_report_data_help=Automaticky zasílat informace o zařízení a statistiky přes MQTT každé dvě minuty. <br><i>Restart aplikace je vyžadován pro aplikování tohoto nastavení.</i>
+mqtt_report_data_help=Automaticky zasílat informace o zařízení přes MQTT každé dvě minuty. <br><i>Restart aplikace je vyžadován pro aplikování tohoto nastavení.</i>
 mqtt_device_token=Název MQTT topicu
 mqtt_device_token_help=Pokud není zadáno, použije se MAC adresa zařízení (je-li dostupná)<br><i>Restart aplikace je vyžadován pro aplikování tohoto nastavení.</i>
+mqtt_report_statistics=Zasílat statistiky přes MQTT
+mqtt_report_statistics_help=Automaticky zasílat statistiky o zobrazených souborech přes MQTT každé dvě minuty.<br><i>Restart aplikace je vyžadován pro aplikování tohoto nastavení.</i>
+license_key_enter=Zadat licenční klíč
+free_trial=Free trial
+licence_key_how_to_get=Prosím kontaktujte podporu pro získání licenčního klíče
+license_key_device_id=Zadejte níže licenční klíč pro následující ID zařízení
+license_key_valid=Licenční klíč je správný, aplikace se restartuje
+license_key_invalid=Licenční klíč není správný, prosím zkontrolujte překlepy

@@ -708,6 +708,14 @@ new_install_message=<p>Dziękujemy za zainstalowanie Slideshow – odtwarzacza D
 updated_version_message=<p>Aplikacja Slideshow została pomyślnie zaktualizowana do nowszej wersji.</p><p>Dokumentację funkcji znajdziesz na <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> i obejrzyj samouczki na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- Zespół programistów --</span>
 welcome=Powitanie
 mqtt_report_data=Raportuj dane przez MQTT
-mqtt_report_data_help=Automatycznie wysyłaj informacje o urządzeniu i statystyki przez MQTT co 2 minuty.<br><i>Do zastosowania tej zmiany wymagane jest ponowne załadowanie.</i>
+mqtt_report_data_help=Automatycznie wysyłaj informacje o urządzeniu przez MQTT co 2 minuty.<br><i>Do zastosowania tej zmiany wymagane jest ponowne załadowanie.</i>
 mqtt_device_token=Nazwa tematu MQTT
 mqtt_device_token_help=Jeśli nie zostanie wprowadzony, zostanie użyty adres MAC urządzenia (jeśli jest dostępny).<br><i>Do zastosowania tej zmiany wymagane jest ponowne załadowanie.</i>
+mqtt_report_statistics=Raportuj statystyki przez MQTT
+mqtt_report_statistics_help=Raportuj statystyki wyświetlania plików przez MQTT<br><i>Do zastosowania tej zmiany wymagane jest ponowne wczytanie.</i>
+license_key_enter=Wprowadź klucz licencyjny
+free_trial=Free trial
+licence_key_how_to_get=Skontaktuj się z pomocą techniczną, aby uzyskać klucz licencyjny
+license_key_device_id=Wprowadź klucz licencyjny poniżej dla następującego identyfikatora urządzenia
+license_key_valid=Klucz licencyjny jest ważny, aplikacja zostanie ponownie uruchomiona
+license_key_invalid=Klucz licencyjny jest nieprawidłowy, sprawdź, czy został wprowadzony poprawnie

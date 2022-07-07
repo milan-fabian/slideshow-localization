@@ -708,6 +708,14 @@ new_install_message=<p>Vielen Dank, dass Sie Slideshow - Digital Signage Player 
 updated_version_message=<p>Slideshow-App wurde erfolgreich auf eine neuere Version aktualisiert.</p><p>Dokumentation für Funktionen finden Sie unter <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> und sehen Sie sich Tutorials auf <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- Das Entwicklungsteam --</span>
 welcome=Herzlich willkommen
 mqtt_report_data=Melden Sie Daten über MQTT
-mqtt_report_data_help=Senden Sie automatisch alle 2 Minuten Geräteinformationen und Statistiken über MQTT.<br><i>Neu laden ist erforderlich, um diese Änderung zu übernehmen.</i>
+mqtt_report_data_help=Senden Sie automatisch alle 2 Minuten Geräteinformationen über MQTT.<br><i>Neu laden ist erforderlich, um diese Änderung zu übernehmen.</i>
 mqtt_device_token=Name des MQTT-Themas
 mqtt_device_token_help=Wenn nicht eingegeben, wird die MAC-Adresse des Geräts verwendet (falls verfügbar).<br><i>Neu laden ist erforderlich, um diese Änderung zu übernehmen.</i>
+mqtt_report_statistics=Melden Sie Statistiken über MQTT
+mqtt_report_statistics_help=Melden Sie Anzeigestatistiken von Dateien über MQTT<br><i>Neues Laden ist erforderlich, um diese Änderung zu übernehmen.</i>
+license_key_enter=Gebe den Lizenzschlüssel ein
+free_trial=Free trial
+licence_key_how_to_get=Bitte wenden Sie sich an den Support, um den Lizenzschlüssel zu erhalten
+license_key_device_id=Geben Sie unten den Lizenzschlüssel für die folgende Geräte-ID ein
+license_key_valid=Der Lizenzschlüssel ist gültig, die Anwendung wird neu gestartet
+license_key_invalid=Der Lizenzschlüssel ist ungültig, bitte überprüfen Sie, ob er korrekt eingegeben wurde

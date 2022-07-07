@@ -708,6 +708,14 @@ new_install_message=<p>Hvala vam što ste instalirali Slideshow - Digital Signag
 updated_version_message=<p>Aplikacija Slideshow uspješno je ažurirana na noviju verziju.</p><p>Dokumentaciju za značajke možete pronaći na <a href="https://slideshow.digital/documentation/" target="_blank"> https://slideshow.digital/documentation/</a> i pogledajte vodiče na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- Razvojni tim --</span>
 welcome=Dobrodošli
 mqtt_report_data=Prijavite podatke putem MQTT-a
-mqtt_report_data_help=Automatski šaljite podatke o uređaju i statistiku putem MQTT svake 2 minute.<br><i>Za primjenu ove promjene potrebno je ponovno učitavanje.</i>
+mqtt_report_data_help=Automatski šaljite podatke o uređaju putem MQTT svake 2 minute.<br><i>Za primjenu ove promjene potrebno je ponovno učitavanje.</i>
 mqtt_device_token=Naziv teme MQTT
 mqtt_device_token_help=Ako nije unesena, koristit će se MAC adresa uređaja (ako je dostupna).<br><i>Za primjenu ove promjene potrebno je ponovno učitavanje.</i>
+mqtt_report_statistics=Prijavite statistiku putem MQTT-a
+mqtt_report_statistics_help=Izvještaj o statistici prikaza datoteka putem MQTT-a<br><i>Za primjenu ove promjene potrebno je ponovno učitavanje.</i>
+license_key_enter=Unesite licencni ključ
+free_trial=Free trial
+licence_key_how_to_get=Kontaktirajte podršku kako biste dobili licencni ključ
+license_key_device_id=Unesite licencni ključ ispod za sljedeći ID uređaja
+license_key_valid=Ključ licence je važeći, aplikacija će se ponovno pokrenuti
+license_key_invalid=Ključ licence je nevažeći, provjerite je li ispravno unesen

@@ -708,6 +708,14 @@ new_install_message=<p>Thank you for installing Slideshow - Digital Signage play
 updated_version_message=<p>Slideshow app has been successfully updated to a newer version. There are following new features:</p><ul><li>MQTT: added support for WebSockets, optional automatic statistics sending and custom topic setting</li><li>File Manager: added possibility to set particular file length or mute via Properties</li><li>Home page: added welcome message (only on first start after update)</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
 welcome=Welcome
 mqtt_report_data=Report data through MQTT
-mqtt_report_data_help=Automatically send device info and statistics through MQTT every 2 minutes.<br><i>Reload is required for applying this change.</i>
+mqtt_report_data_help=Automatically send device info through MQTT every 2 minutes.<br><i>Reload is required for applying this change.</i>
 mqtt_device_token=MQTT topic name
 mqtt_device_token_help=If not entered, MAC address of the device will be used (if available).<br><i>Reload is required for applying this change.</i>
+mqtt_report_statistics=Report statistics through MQTT
+mqtt_report_statistics_help=Automatically report display statistics of files through MQTT every two minutes.<br><i>Reload is required for applying this change.</i>
+license_key_enter=Enter license key
+free_trial=Free trial
+licence_key_how_to_get=Please contact support to get the license key
+license_key_device_id=Enter the license key below for the following device ID
+license_key_valid=License key is valid, application will be restarted
+license_key_invalid=License key is invalid, please check if it was entered correctly
