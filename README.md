@@ -21,6 +21,7 @@ If you use a translation service (such as Google Translate) as a help, please re
 - French (thanks to Ahmed Karboubi)
 - German (thanks to Stefan Preitschaft)
 - Italian (thanks to Michele Fioretti)
+- Japanese (thanks to Takashi Yamaguchi)
 - Polish (thanks to Piotr Bujalski)
 - Portuguese (thanks to Jorge Soares)
 - Russian (thanks to Sergej Karpovič)
