@@ -182,7 +182,7 @@ reboot_device=Reboot device
 reboot_info=After pressing reboot the screen will get blank and the device will stop responding. You can log in back in approximately 2 minutes.
 reboot_question=Do you want to reboot this device?
 update_apply_reload=Reload the application to apply the update
-item_path_help=According to type:<br><b>Single file:</b> name of the uploaded file.<br><b>Audio/video stream:</b> URL address of the stream including "http://" or "https://".<br><b>Files alphabetically / randomly:</b> you can pick multiple files or folders with wildcard (*), for example all files with extension jpg can be added as "*.jpg", all files in subfolder with name "sales" can be added as "sales/*" or all PDF files in subfolders starting with "promotion" can be added as "promotion*/*.pdf" (without quotes).
+item_path_help=According to type:<br><b>Single file:</b> name of the uploaded file.<br><b>Audio/video stream:</b> URL address of the stream including "http://" or "https://".<br><b>Files alphabetically / randomly:</b> you can pick multiple files or folders with wildcard (*), for example all files with extension jpg can be added as "*.jpg", all files in subfolder with name "sales" can be added as "sales/*" or all PDF files in subfolders starting with "promotion" can be added as "promotion*/*.pdf" (without quotes).<br><b>YouTube video:</b> entire URL of the YouTube video, e.g. https://www.youtube.com/watch?v=dQw4w9WgXcQ.
 unsupported_extension=This file type is not supported
 downloader_log_empty=No file was downloaded since last start
 downloader_queue_length=Download queue length
@@ -637,7 +637,7 @@ video_input_device=Video input device
 video_input_device_help=Choose a device, which will be used as a video input for this item, for example a camera.
 need_camera_permission=There is an item with type Video input, camera permission is required for this kind of item. Please grant camera permission via on-screen menu - Basic settings - Request camera permission.
 request_camera_permission=Request camera permission
-request_camera_permission_help=Camera permission is needed only if you are using item type Video input.
+request_camera_permission_help=Camera permission is needed only if you are using item type Video input or face recognition feature.
 unsupported=Unsupported
 camera_front=Front camera
 camera_back=Rear camera
@@ -705,7 +705,7 @@ keep_wifi_on=Keep WiFi on
 keep_wifi_on_help=Tells Android to keep the WiFi always on and in high performance mode. If un-checked, WiFi connection might be lost on some devices after some time, in order to save power.<br><i>Reload is required for applying this change.</i>\t
 mqtt_use_websockets=Use websockets for MQTT
 new_install_message=<p>Thank you for installing Slideshow - Digital Signage player, we hope you will like it.</p><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- The Development team --</span>
-updated_version_message=<p>Slideshow app has been successfully updated to a newer version. There are following new features:</p><ul><li>Added Japanese localization, thanks to Takashi Yamaguchi</li><li>Added separate setting for sending item statistics through MQTT</li><li>Small fixes and enhancements</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
+updated_version_message=<p>Slideshow app has been successfully updated to a newer version. There are following new features:</p><ul><li>Added support for YouTube video playback</li><li>Added support for face detection from camera</li><li>Enhanced support for displaying web pages behind login form</li><li>Added simple benchmark</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
 welcome=Welcome
 mqtt_report_data=Report data through MQTT
 mqtt_report_data_help=Automatically send device info through MQTT every 2 minutes.<br><i>Reload is required for applying this change.</i>
@@ -719,3 +719,14 @@ licence_key_how_to_get=Please contact support to get the license key
 license_key_device_id=Enter the license key below for the following device ID
 license_key_valid=License key is valid, application will be restarted
 license_key_invalid=License key is invalid, please check if it was entered correctly
+item_type_YOUTUBE=YouTube video
+face_detection=Face detection
+face_detection_camera_id=Camera for face detection
+face_detection_rotation=Frame rotation for face detection
+face_detection_delay=Delay between frames for face detection
+face_detection_camera_id_help=Which camera to use. If no camera is selected, face detection is turned off. Camera permission is required for this feature, it can be granted via on-screen menu - Basic settings - Request camera permission.<br><i>Reload is required for applying this change.</i>
+face_detection_rotation_help=Rotation of camera frame in degrees (0, 90, 180 or 270)
+face_detection_delay_help=Delay in milliseconds between two face detection frames processing. The higher the number, the lower the CPU load.
+face_detection_current_count=Number of faces detected in the last frame
+face_detection_unique_count=Total number of unique faces since last start
+item_name_help=Internal name of this item
