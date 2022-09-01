@@ -27,6 +27,7 @@ If you use a translation service (such as Google Translate) as a help, please re
 - Russian (thanks to Sergej Karpovič)
 - Slovak
 - Spanish (thanks to Rafael García)
+- Turkish (thanks to İlker Berberler)
 
 
 ## About Slideshow
