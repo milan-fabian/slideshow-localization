@@ -1,4 +1,4 @@
-﻿var localization = {};
+var localization = {};
 localization["en"] = {};
 localization["it"] = {};
 localization["pl"] = {};
@@ -11,6 +11,7 @@ localization["hr"] = {};
 localization["es"] = {};
 localization["ru"] = {};
 localization["ja"] = {};
+localization["sl"] = {};
 
 localization.en["reboot"] = "Reboot device";
 localization.en["reboot_success"] = "Device was successfully rebooted";
@@ -227,6 +228,24 @@ localization.ja["downloader_info"] = "ダウンロードに関する情報";
 localization.ja["show_file"] = "ファイルを表示";
 localization.ja["create_folder"] = "新しいフォルダを作成します。";
 localization.ja["folder_name"] = "フォルダ名";
+
+localization.sl["reboot"] = "Ponovni zagon naprave";
+localization.sl["reboot_success"] = "Naprava je bila ponovno zagnana";
+localization.sl["reload"] = "Ponovno naloži aplikacijo";
+localization.sl["reload_success"] = "Aplikacija je bila ponovno naložena";
+localization.sl["rename"] = "Preimenuj";
+localization.sl["new_name"] = "Novo ime";
+localization.sl["save"] = "Shrani";
+localization.sl["delete_file"] = "Izbriši datoteko";
+localization.sl["delete_file_now"] = "Izbriši datoteko zdaj";
+localization.sl["delete_file_confirm"] = "Želiš izbrisati datoteko";
+localization.sl["drop_to_upload"] = "Klikni tukaj ali povleci in izpusti datoteko za nalaganje";
+localization.sl["invalid_file_type"] = "Ta vrsta datoteke ni podprta";
+localization.sl["file_too_big"] = "Datoteka je prevelika ({{filesize}} MB), največja dovoljena velikost je {{maxFilesize}} MB";
+localization.sl["downloader_info"] = "Informacije o prenašanju";
+localization.sl["show_file"] = "Pokaži datoteko";
+localization.sl["create_folder"] = "Ustvari novo mapo";
+localization.sl["folder_name"] = "Ime mape";
 
 function localizeString(key) {
 	return localization[choosen_language][key];
