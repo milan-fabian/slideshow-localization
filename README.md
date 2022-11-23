@@ -26,6 +26,7 @@ If you use a translation service (such as Google Translate) as a help, please re
 - Portuguese (thanks to Jorge Soares)
 - Russian (thanks to Sergej Karpovič)
 - Slovak
+- Slovenian (thanks to @AdmiralStipe)
 - Spanish (thanks to Rafael García)
 - Turkish (thanks to İlker Berberler)
 
