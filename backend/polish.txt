@@ -779,3 +779,4 @@ detect_key=Wykryj klucz
 key=Klucz
 action_down=Akcja po naciśnięciu klawisza
 action_up=Akcja po zwolnieniu klawisza
+android_code=Android code

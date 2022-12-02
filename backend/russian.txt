@@ -779,3 +779,4 @@ detect_key=Обнаружить ключ
 key=Ключ
 action_down=Действие при нажатии клавиши
 action_up=Действие при отпускании клавиши
+android_code=Android code

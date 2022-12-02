@@ -779,3 +779,4 @@ detect_key=Zaznaj tipko
 key=Tipka
 action_down=Dejanje ob pritisku
 action_up=Dejanje ob spustu
+android_code=Android code

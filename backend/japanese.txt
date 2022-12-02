@@ -779,3 +779,4 @@ detect_key=キーの検出
 key=鍵
 action_down=キーを押したときの動作
 action_up=キーを離したときの動作
+android_code=Android code

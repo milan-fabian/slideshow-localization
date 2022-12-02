@@ -779,3 +779,4 @@ detect_key=Otkrij ključ
 key=Ključ
 action_down=Radnja pri spuštanju tipke
 action_up=Radnja na tipku gore
+android_code=Android code

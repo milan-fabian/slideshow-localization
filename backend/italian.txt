@@ -779,3 +779,4 @@ detect_key=Rileva chiave
 key=Chiave
 action_down=Azione a chiave giù
 action_up=Azione su chiave su
+android_code=Android code

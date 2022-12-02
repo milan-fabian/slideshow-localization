@@ -779,3 +779,4 @@ detect_key=Anahtarı algıla
 key=Anahtar
 action_down=Tuşa basıldığında eylem
 action_up=Anahtar yukarı eylem
+android_code=Android code

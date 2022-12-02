@@ -779,3 +779,4 @@ detect_key=Détecter la clé
 key=Clé
 action_down=Action sur touche enfoncée
 action_up=Action sur clé relevée
+android_code=Android code
