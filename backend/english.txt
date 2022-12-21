@@ -270,8 +270,6 @@ rss_messages_help=On this page you can add RSS messages, which will be displayed
 ftp_server=FTP server
 upload_to_ftp_1=Connect to FTP server
 upload_to_ftp_2=and upload files
-setting_ntp_server=NTP server
-setting_ntp_server_help=URL address of the NTP server for time synchronization (e.g. 0.us.pool.ntp.org)
 rss_reader_url=URL for RSS messages
 rss_reader_url_help=URL address of source for RSS or ATOM messages shown on screen. You can enter multiple sources delimited by comma. If any URL contains a comma, replace it with "%2C" (without quotes). For usage of local RSS source (added in menu Tools - RSS messages), enter the value "local". For usage with a local file, enter the name of the file.
 weather_city=City for weather
@@ -283,7 +281,7 @@ reload_question=Do you want to reload this application?
 reload=Reload application
 reload_info=After pressing reload the application on device will close and start again. You can log in back in approximately 20 seconds.
 reboot_reload=Reboot / reload
-weather_api_key_help=API key for downloading weather information.<br>For OpenWeatherMap it can be retrieved free-of-charge at <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>For Here Destination weather it can be retrieved free-of-charge at <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>Review licensing of the weather information provider before using it.
+weather_api_key_help=API key for downloading weather information.<br>For OpenWeatherMap it can be retrieved free-of-charge at <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>For Here Destination weather it can be retrieved free-of-charge at <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>It is not necessary for Open-Meteo.<br>Review licensing of the weather information provider before using it.
 thread=Thread
 threads=Threads
 shell_console=Shell console
@@ -673,7 +671,7 @@ keep_wifi_on=Keep WiFi on
 keep_wifi_on_help=Tells Android to keep the WiFi always on and in high performance mode. If unchecked, WiFi connection might be lost on some devices after some time, in order to save power.<br><i>Reload is required for applying this change.</i>\t
 mqtt_use_websockets=Use websockets for MQTT
 new_install_message=<p>Thank you for installing Slideshow - Digital Signage player, we hope you will like it.</p><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- The Development team --</span>
-updated_version_message=<p>Slideshow app has been successfully updated to Slideshow 4.0. You can find more details about this new version on <a href="https://slideshow.digital/2022/11/new-slideshow-4-0/">https://slideshow.digital/2022/11/new-slideshow-4-0/</a>. There are following changes in this version:</p><ul><li>Added Slovenian localization (thanks to @AdmiralStipe)</li><li>Added password dialog to advanced settings in case the default credentials has been changed</li><li>Enhanced camera picture in darker environments (for video input content and face detection)</li><li>Fixed crash on Amazon devices that doesn't support widgets</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
+updated_version_message=<p>Slideshow app has been successfully updated to newer version. There are following changes in this version:</p><ul><li>Added Open-Meteo as a source of weather forecast</li><li>Added User-agent setting</li><li>Added API for triggering file synchronization</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
 welcome=Welcome
 mqtt_report_data=Report data through MQTT
 mqtt_report_data_help=Automatically send device info through MQTT every 2 minutes.<br><i>Reload is required for applying this change.</i>
@@ -772,7 +770,7 @@ playlist_linked_item_help=This playlist is linked directly to the content. To ch
 edit_item=Edit content
 content_duration=Content duration (seconds)
 key_mapping=Key mapping
-key_mapping_help=On this page you can change the mapping of pressing various keyboard keys (on the keyboard connected to the Android device) to actions on the screen.
+key_mapping_help=On this page you can change the mapping of pressing various keyboard keys (on a keyboard or remote control connected to the Android device) to actions on the screen. It acts as keyboard shortcuts.
 key_mapping_list=List of key mappings
 key_mapping_add=Add new key mapping
 detect_key=Detect key
@@ -780,3 +778,5 @@ key=Key
 action_down=Action on key down
 action_up=Action on key up
 android_code=Android code
+request_user_agent=User agent for HTTP requests
+request_user_agent_help=HTTP User agent header used for requests made by this app, for example for displaying web pages or downloading content.<br><i>Reload is required for applying this change.</i>

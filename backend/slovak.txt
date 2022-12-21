@@ -270,8 +270,6 @@ rss_messages_help=Na tejto stránke môžete pridávať RSS správy, ktoré sa b
 ftp_server=FTP server
 upload_to_ftp_1=Pripojte sa na FTP server
 upload_to_ftp_2=a nahrajte súbory
-setting_ntp_server=NTP server
-setting_ntp_server_help=URL adresa NTP servera pre synchronizáciu času (napr. 0.sk.pool.ntp.org)
 rss_reader_url=URL pre RSS správy
 rss_reader_url_help=URL adresa zdroja RSS alebo ATOM správ, zobrazených na obrazovke. Viacero zdrojových oddeľte čiarkou. Ak sa v URL nachádza čiarka, nahraďte ju za "%2C" (bez úvodzoviek). Pre použitie lokálneho zdroja RSS správ (pridané cez menu Nástroje - RSS správy) zadajte hodnotu "local". Pre použitie lokálneho súboru, zadajte názov daného súboru.
 weather_city=Mesto pre počasie
@@ -283,7 +281,7 @@ reload_question=Naozaj chcete reštartovať aplikáciu?
 reload=Reštartovať aplikáciu
 reload_info=Po stlačení tlačítka sa táto aplikáciu ukončí a znova načíta. O približne 20 sekúnd sa môžete znova pripojiť.
 reboot_reload=Reštart
-weather_api_key_help=API kľúč pre sťahovanie informácii o počasí.<br>Pre OpenWeatherMap môže byť získaný bezplatne na <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>Pre Here Destination weather môže byť získaný bezplatne na <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>Pred použitím si prečítajte licenčné podmienky poskytovateľa informácií o počasí.
+weather_api_key_help=API kľúč pre sťahovanie informácii o počasí.<br>Pre OpenWeatherMap môže byť získaný bezplatne na <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>Pre Here Destination weather môže byť získaný bezplatne na <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>Nie je potrebný pre Open-Meteo.<br>Pred použitím si prečítajte licenčné podmienky poskytovateľa informácií o počasí.
 thread=Vlákno
 threads=Vlákna
 shell_console=Shell konzola
@@ -780,3 +778,5 @@ key=Klávesa
 action_down=Akcia pri stlačení klávesy
 action_up=Akcia pri pustení klávesy
 android_code=Android kód
+request_user_agent=User agent pre HTTP požiadavky
+request_user_agent_help=HTTP hlavička User agent používaná pre požiadavky tejto aplikácie, napríklad na zobrazenie webových stránok alebo sťahovanie obsahu.<br><i>Reštart aplikácie je vyžadovaný pre aplikovanie tohto nastavenia.</i>

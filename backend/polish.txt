@@ -270,8 +270,6 @@ rss_messages_help=Na tej stronie możesz dodawać wiadomości RSS, które będą
 ftp_server=FTP serwer
 upload_to_ftp_1=Połącz się z serwerem FTP
 upload_to_ftp_2=i przesyłaj pliki
-setting_ntp_server=NTP serwer czasu
-setting_ntp_server_help=Adres URL serwera NTP do synchronizacji czasu (np. 0.us.pool.ntp.org)
 rss_reader_url=Adres URL dla wiadomości RSS
 rss_reader_url_help=Adres URL źródła wiadomości RSS lub ATOM wyświetlanych na ekranie. Możesz wprowadzić wiele źródeł rozdzielonych przecinkami. Jeśli dowolny URL zawiera przecinek, zastąp go „%2C” (bez cudzysłowów). Aby korzystać z lokalnego źródła RSS (dodanego w menu Narzędzia - Wiadomości RSS), wprowadź wartość „local”. Aby użyć z plikiem lokalnym, wprowadź nazwę pliku.
 weather_city=Miasto do pogody
@@ -283,7 +281,7 @@ reload_question=Czy chcesz ponownie załadować tę aplikację?
 reload=Przeładuj aplikację
 reload_info=Po naciśnięciu przeładuj aplikację na urządzeniu zamknie się i uruchomi ponownie. Możesz zalogować się ponownie za około 20 sekund.
 reboot_reload=Uruchom ponownie / załaduj ponownie
-weather_api_key_help=Klucz API do pobierania informacji o pogodzie.<br>Dla OpenWeatherMap można go pobrać bezpłatnie na <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>Dla Here Destination weather można go pobrać bezpłatnie na <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>Przed użyciem zapoznaj się z licencją dostawcy informacji o pogodzie.
+weather_api_key_help=Klucz API do pobierania informacji o pogodzie.<br>Dla OpenWeatherMap można go pobrać bezpłatnie na <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>Dla Here Destination weather można go pobrać bezpłatnie na <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>Nie jest to konieczne w przypadku Open-Meteo.<br>Przed użyciem zapoznaj się z licencją dostawcy informacji o pogodzie.
 thread=Wątek
 threads=Wątki
 shell_console=Konsola Shell
@@ -780,3 +778,5 @@ key=Klucz
 action_down=Akcja po naciśnięciu klawisza
 action_up=Akcja po zwolnieniu klawisza
 android_code=Android code
+request_user_agent=User agent dla żądań
+request_user_agent_help=Nagłówek HTTP agenta użytkownika używany do żądań tej aplikacji, takich jak wyświetlanie stron internetowych lub pobieranie treści.<br><i>Aby zastosować to ustawienie, wymagane jest ponowne uruchomienie aplikacji.</i>

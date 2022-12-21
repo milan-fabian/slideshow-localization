@@ -270,8 +270,6 @@ rss_messages_help=En esta página puede agregar mensajes RSS, que se mostrarán 
 ftp_server=Servidor FTP
 upload_to_ftp_1=Conectar a servidor FTP
 upload_to_ftp_2=y realizar la subida de archivos
-setting_ntp_server=Servidor NTP
-setting_ntp_server_help=Dirección URL del servidor NTP para la sincronización horaria (por ejemplo, 0.es.pool.ntp.org)
 rss_reader_url=URL para mensajes RSS
 rss_reader_url_help=Dirección URL de origen de los mensajes RSS o ATOM que se muestran en la pantalla. Puede ingresar múltiples fuentes delimitadas por comas. Si alguna URL contiene una coma, reemplácela con "%2C" (sin comillas). Para el uso de la fuente RSS local (agregada en el menú Herramientas - Mensajes RSS), ingrese el valor "local". Para usar con un archivo local, ingrese el nombre del archivo.
 weather_city=Ciudad para el clima
@@ -283,7 +281,7 @@ reload_question=¿Quieres reiniciar la aplicación?
 reload=Reiniciar aplicación
 reload_info=Después de presionar recargar, la aplicación en el dispositivo se cerrará y comenzará de nuevo. Puede volver a iniciar sesión en aproximadamente 20 segundos.
 reboot_reload=Reiniciar / Recargar
-weather_api_key_help=Clave API para descargar información meteorológica.<br>Para OpenWeatherMap, se puede recuperar de forma gratuita en <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>El clima de Here Destination se puede obtener de forma gratuita en <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>Revise las licencias del proveedor de información meteorológica antes de usarlo.
+weather_api_key_help=Clave API para descargar información meteorológica.<br>Para OpenWeatherMap, se puede recuperar de forma gratuita en <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>El clima de Here Destination se puede obtener de forma gratuita en <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>No es necesario para Open-Meteo.<br>Revise las licencias del proveedor de información meteorológica antes de usarlo.
 thread=Hilo
 threads=Hilos
 shell_console=Terminal
@@ -780,3 +778,5 @@ key=Llave
 action_down=Acción al presionar la tecla
 action_up=Acción en llave arriba
 android_code=Android code
+request_user_agent=User agent para requisitos
+request_user_agent_help=Encabezado HTTP del agente de usuario utilizado para las solicitudes de esta aplicación, como mostrar páginas web o descargar contenido.<br><i>Se requiere reiniciar la aplicación para que se aplique esta configuración.</i>

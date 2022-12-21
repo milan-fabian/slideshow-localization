@@ -270,8 +270,6 @@ rss_messages_help=Na ovoj stranici možete dodati RSS poruke koje će biti prika
 ftp_server=FTP poslužitelj
 upload_to_ftp_1=Spojite se na FTP poslužitelj
 upload_to_ftp_2=i prijenos datoteka
-setting_ntp_server=NTP poslužitelj
-setting_ntp_server_help=URL adresa NTP poslužitelja za vremensku sinkronizaciju (npr. 0.us.pool.ntp.org)
 rss_reader_url=URL za RSS poruke
 rss_reader_url_help=URL adresa izvora za RSS ili ATOM poruke prikazane na zaslonu. Možete unijeti više izvora razdvojenih zarezom. Ako bilo koji URL sadrži zarez, zamijenite ga s "%2C" (bez navodnika). Za upotrebu lokalnog RSS izvora (dodan u izborniku Alati - RSS poruke), unesite vrijednost "local". Za upotrebu s lokalnom datotekom unesite naziv datoteke.
 weather_city=Grad za prognozu vremena
@@ -283,7 +281,7 @@ reload_question=Želite li ponovo učitati ovu aplikaciju?
 reload=Ponovo učitaj aplikaciju
 reload_info=Nakon ponovnog učitavanja aplikacija na uređaju će se zatvoriti i ponovo pokrenuti. Možete se vratiti natrag za otprilike 20 sekundi.
 reboot_reload=Ponovno pokretanje / ponovno učitavanje
-weather_api_key_help=API ključ za preuzimanje vremenskih podataka.<br>Za OpenWeatherMap može se besplatno preuzeti na <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a >.<br>Za vrijeme Odredišta ovdje se može besplatno preuzeti na <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>Pregledajte licencu davatelja vremenskih podataka prije nego što ga upotrijebite.
+weather_api_key_help=API ključ za preuzimanje vremenskih podataka.<br>Za OpenWeatherMap može se besplatno preuzeti na <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a >.<br>Za vrijeme Odredišta ovdje se može besplatno preuzeti na <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>Nije potrebno za Open-Meteo.<br>Pregledajte licencu davatelja vremenskih podataka prije nego što ga upotrijebite.
 thread=Nit
 threads=Niti
 shell_console=Shell konzola
@@ -780,3 +778,5 @@ key=Ključ
 action_down=Radnja pri spuštanju tipke
 action_up=Radnja na tipku gore
 android_code=Android code
+request_user_agent=User agent za zahtjeve
+request_user_agent_help=HTTP zaglavlje korisničkog agenta koje se koristi za zahtjeve ove aplikacije, kao što je prikazivanje web stranica ili preuzimanje sadržaja.<br><i>Potrebno je ponovno pokretanje aplikacije da bi se ova postavka primijenila.</i>

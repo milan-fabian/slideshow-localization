@@ -270,8 +270,6 @@ rss_messages_help=このページでは、画面に表示されるRSSメッセ�
 ftp_server=FTPサーバー
 upload_to_ftp_1=FTPサーバーに接続します。
 upload_to_ftp_2=に接続してファイルをアップロードします。
-setting_ntp_server=NTPサーバー
-setting_ntp_server_help=時刻同期用のNTPサーバーのURLアドレス（例：0.us.pool.ntp.org）
 rss_reader_url=RSSメッセージのURL
 rss_reader_url_help=画面に表示されるRSSまたはATOMメッセージの送信元のURLアドレス。カンマで区切られた複数のソースを入力できます。 URLにカンマが含まれている場合は、「%2C」（引用符なし）に置き換えます。ローカルRSSソース（メニューツール-RSSメッセージに追加）を使用するには、値「local」を入力します。ローカルファイルで使用する場合は、ファイルの名前を入力します。
 weather_city=天気の都市名
@@ -283,7 +281,7 @@ reload_question=このアプリケーションをリロードしますか？
 reload=アプリケーションリロード
 reload_info=リロードを押すと、デバイス上のアプリケーションが閉じて再起動します。約20秒で再度ログインできます。
 reboot_reload=再起動/リロード
-weather_api_key_help=気象情報をダウンロードするためのAPIキー。<br>OpenWeatherMapの場合は、<a href="https://openweathermap.org/appid">https://openweathermap.org/appid</aで無料で取得できます。 >。<br>HereDestinationの天気については、<a href="https://developer.here.com/projects">https://developer.here.com/projectsで無料で取得できます。</a>。<br>使用する前に、気象情報プロバイダーのライセンスを確認してください。
+weather_api_key_help=気象情報をダウンロードするためのAPIキー。<br>OpenWeatherMapの場合は、<a href="https://openweathermap.org/appid">https://openweathermap.org/appid</aで無料で取得できます。 >。<br>HereDestinationの天気については、<a href="https://developer.here.com/projects">https://developer.here.com/projectsで無料で取得できます。</a>。<br>Open-Meteo では必要ありません。<br>使用する前に、気象情報プロバイダーのライセンスを確認してください。
 thread=スレッド
 threads=スレッド
 shell_console=シェルコンソール
@@ -780,3 +778,5 @@ key=鍵
 action_down=キーを押したときの動作
 action_up=キーを離したときの動作
 android_code=Android code
+request_user_agent=User agent 要件の
+request_user_agent_help=ウェブページの表示やコンテンツのダウンロードなど、このアプリケーションのリクエストに使用されるユーザー エージェント HTTP ヘッダー。<br><i>この設定を適用するには、アプリケーションの再起動が必要です。</i>

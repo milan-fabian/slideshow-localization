@@ -270,8 +270,6 @@ rss_messages_help=In questa pagina è possibile aggiungere messaggi RSS, che ver
 ftp_server=Server FTP
 upload_to_ftp_1=Connetti al server FTP
 upload_to_ftp_2=e carica file
-setting_ntp_server=Server NTP
-setting_ntp_server_help=Indirizzo URL del server NTP per la sincronizzazione dell'ora (ad es. 0.us.pool.ntp.org)
 rss_reader_url=URL per i messaggi RSS
 rss_reader_url_help=Indirizzo URL della fonte per i messaggi RSS o ATOM visualizzati sullo schermo. È possibile inserire più fonti delimitate da virgola. Se un URL contiene una virgola, sostituiscilo con "%2C" (senza virgolette). Per l'utilizzo della fonte RSS locale (aggiunta nel menu Strumenti - Messaggi RSS), immettere il valore "local". Per l'utilizzo con il file locale, immettere il nome del file.
 weather_city=Città per tempo
@@ -283,7 +281,7 @@ reload_question=Vuoi ricaricare questa applicazione?
 reload=Ricarica applicazione
 reload_info=Dopo aver premuto ricaricare l'applicazione sul dispositivo si chiuderà e ricomincerà. È possibile accedere nuovamente in circa 20 secondi.
 reboot_reload=Riavvia / ricarica
-weather_api_key_help=Chiave API per il download delle informazioni meteorologiche.<br>Per OpenWeatherMap può essere recuperato gratuitamente su <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>Per Here Destination weather può essere recuperato gratuitamente su <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>Rivedere le licenze del fornitore di informazioni meteorologiche prima di utilizzarlo.
+weather_api_key_help=Chiave API per il download delle informazioni meteorologiche.<br>Per OpenWeatherMap può essere recuperato gratuitamente su <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>Per Here Destination weather può essere recuperato gratuitamente su <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>Non è necessario per Open-Meteo.<br>Rivedere le licenze del fornitore di informazioni meteorologiche prima di utilizzarlo.
 thread=Filo
 threads=discussioni
 shell_console=Console Shell
@@ -780,3 +778,5 @@ key=Chiave
 action_down=Azione a chiave giù
 action_up=Azione su chiave su
 android_code=Android code
+request_user_agent=User agent per le richieste
+request_user_agent_help=Intestazione HTTP dell'agente utente utilizzata per le richieste di questa applicazione, come la visualizzazione di pagine web o il download di contenuti.<br><i>Per applicare questa impostazione è necessario il riavvio dell'applicazione.</i>

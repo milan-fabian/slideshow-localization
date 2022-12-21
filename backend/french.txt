@@ -270,8 +270,6 @@ rss_messages_help=Sur cette page, vous pouvez ajouter des messages RSS, qui sero
 ftp_server=Serveur FTP
 upload_to_ftp_1=Connectez-vous au serveur FTP
 upload_to_ftp_2=et charger des fichiers
-setting_ntp_server=Serveur NTP
-setting_ntp_server_help=Adresse URL du serveur NTP pour la synchronisation de l'heure (par exemple 0.us.pool.ntp.org)
 rss_reader_url=URL des messages RSS
 rss_reader_url_help=Adresse URL de la source des messages RSS ou ATOM affichée à l'écran. Vous pouvez saisir plusieurs sources délimitées par une virgule. Si une URL contient une virgule, remplacez-la par "%2C" (sans guillemets). Pour l'utilisation de la source RSS locale (ajoutée dans le menu Outils - Messages RSS), entrez la valeur "local". Pour une utilisation avec un fichier local, entrez le nom du fichier.
 weather_city=Ville pour la météo
@@ -283,7 +281,7 @@ reload_question=Voulez-vous redémarrer cette application?
 reload=Redémarrer l'application
 reload_info=Après avoir appuyé sur redémarrer, l'application sur l'appareil se fermera et redémarrera. Vous pouvez vous reconnecter dans environ 20 secondes.
 reboot_reload=Redémarrer / relancer
-weather_api_key_help=Clé API pour télécharger les informations météorologiques.<br Pour OpenWeatherMap, elle peut être récupérée gratuitement à <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>Pour la météo d'ici, elle peut être récupérée gratuitement à <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>Vérifiez la licence du fournisseur d'informations météorologiques avant de l'utiliser.
+weather_api_key_help=Clé API pour télécharger les informations météorologiques.<br Pour OpenWeatherMap, elle peut être récupérée gratuitement à <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>Pour la météo d'ici, elle peut être récupérée gratuitement à <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>Il n'est pas nécessaire pour Open-Meteo.<br>Vérifiez la licence du fournisseur d'informations météorologiques avant de l'utiliser.
 thread=Fil
 threads=Fils
 shell_console=Console Shell
@@ -780,3 +778,5 @@ key=Clé
 action_down=Action sur touche enfoncée
 action_up=Action sur clé relevée
 android_code=Android code
+request_user_agent=User agent pour les requêtes
+request_user_agent_help=En-tête HTTP de l'agent utilisateur utilisé pour les requêtes de cette application, telles que l'affichage de pages Web ou le téléchargement de contenu.<br><i>Un redémarrage de l'application est nécessaire pour que ce paramètre s'applique.</i>

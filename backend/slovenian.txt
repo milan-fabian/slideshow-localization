@@ -270,8 +270,6 @@ rss_messages_help=Na tej strani lahko dodaš RSS sporočila, ki bodo prikazana n
 ftp_server=FTP strežnik
 upload_to_ftp_1=Poveži se s FTP strežnikom
 upload_to_ftp_2=in naloži datoteke
-setting_ntp_server=NTP strežnik
-setting_ntp_server_help=URL naslov NTP strežnika za časovno sinhronizacijo (npr. 0.us.pool.ntp.org)
 rss_reader_url=URL za RSS sporočila
 rss_reader_url_help=URL naslov vira za RSS ali ATOM sporočila za prikaz na zaslonu. Lahko vneseš več virov, ločenih z vejico. Če URL vsebuje vejico, jo zamenjaj z "%2C" (brez navednic). Za uporabo lokalnega vira RSS (v meniju Orodja - RSS sporočila), vnesi vrednost "local". Za uporabo lokalne datoteke vnesi ime datoteke.
 weather_city=Mesto za vreme
@@ -283,7 +281,7 @@ reload_question=Želiš ponovno zagnati aplikacijo?
 reload=Ponovni zagon aplikacije
 reload_info=Po pritisku na ponovni zagon se bo aplikacija zaprla in ponovno zagnala. Ponovno se lahko prijavite čez pribl. 20 sekund.
 reboot_reload=Ponovni zagon
-weather_api_key_help=API ključ za povezavo z vremenskimi storitvami.<br>Za OpenWeatherMap ga lahko dobiš brezplačno na <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>Za Here Destination weather ga lahko dobiš brezplačno na <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>Preveri pogoje licenciranja vremenskih informacij uporabe pred uporabo.
+weather_api_key_help=API ključ za povezavo z vremenskimi storitvami.<br>Za OpenWeatherMap ga lahko dobiš brezplačno na <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>Za Here Destination weather ga lahko dobiš brezplačno na <a href="https://developer.here.com/projects">https://developer.here.com/projects</a>.<br>Za Open-Meteo ni potreben.<br>Preveri pogoje licenciranja vremenskih informacij uporabe pred uporabo.
 thread=Nit
 threads=Niti
 shell_console=Lupinska konzola
@@ -780,3 +778,5 @@ key=Tipka
 action_down=Dejanje ob pritisku
 action_up=Dejanje ob spustu
 android_code=Android code
+request_user_agent=User agent za zahteve
+request_user_agent_help=HTTP-glava uporabniškega agenta, ki se uporablja za zahteve te aplikacije, kot je prikazovanje spletnih strani ali prenos vsebine.<br><i>Za uporabo te nastavitve je potreben ponovni zagon aplikacije.</i>

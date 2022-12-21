@@ -270,8 +270,6 @@ rss_messages_help=Auf dieser Seite können Sie RSS-Nachrichten hinzufügen, die 
 ftp_server=FTP-Server
 upload_to_ftp_1=Verbindung zum FTP-Server
 upload_to_ftp_2=und Dateien hochladen
-setting_ntp_server=NTP-Server
-setting_ntp_server_help=URL-Adresse des NTP-Servers für die Zeitsynchronisation (z.B. 0.us.pool.ntp.org)
 rss_reader_url=URL für RSS-Nachrichten
 rss_reader_url_help=URL-Adresse der Quelle für RSS- oder ATOM-Nachrichten, die auf dem Bildschirm angezeigt werden. Sie können mehrere durch Komma abgegrenzte Quellen eingeben. Wenn eine URL ein Komma enthält, ersetzen Sie es durch "%2C" (ohne Anführungszeichen). Für die Verwendung einer lokalen RSS-Quelle (hinzugefügt im Menü Tools - RSS-Nachrichten) geben Sie den Wert "local" ein. Für die Verwendung mit einer lokalen Datei geben Sie den Namen der Datei ein.
 weather_city=Stadt für Wetter
@@ -283,7 +281,7 @@ reload_question=Möchten Sie diese Anwendung neu laden?
 reload=Anwendung neu laden
 reload_info=Nach dem Drücken von reload_info wird die Anwendung auf dem Gerät geschlossen und neu gestartet. Sie können sich in etwa 20 Sekunden wieder einloggen.
 reboot_reload=Neustart / neu laden
-weather_api_key_help=API-Schlüssel zum Herunterladen von Wetterinformationen.<br>Für OpenWeatherMap kann sie kostenlos unter <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>Für Here Zielwetter kann sie kostenlos unter <a href="https://developer.here.com/projects">https://developer.here.com/projects</a> abgerufen werden.<br>Lizenzen des Wetterinformationsanbieters vor der Nutzung prüfen.
+weather_api_key_help=API-Schlüssel zum Herunterladen von Wetterinformationen.<br>Für OpenWeatherMap kann sie kostenlos unter <a href="https://openweathermap.org/appid">https://openweathermap.org/appid</a>.<br>Für Here Zielwetter kann sie kostenlos unter <a href="https://developer.here.com/projects">https://developer.here.com/projects</a> abgerufen werden.<br>Für Open-Meteo ist es nicht erforderlich.<br>Lizenzen des Wetterinformationsanbieters vor der Nutzung prüfen.
 thread=Beitrag
 threads=Beiträge
 shell_console=Shell-Konsole
@@ -780,3 +778,5 @@ key=Taste
 action_down=Aktion bei gedrückter Taste
 action_up=Aktion bei Taste nach oben
 android_code=Android code
+request_user_agent=User-Agent für Anfragen
+request_user_agent_help=HTTP-Header des Benutzeragenten, der für Anfragen dieser Anwendung verwendet wird, z. B. zum Anzeigen von Webseiten oder zum Herunterladen von Inhalten.<br><i>Ein Neustart der Anwendung ist erforderlich, damit diese Einstellung angewendet wird.</i>
