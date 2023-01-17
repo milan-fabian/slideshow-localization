@@ -670,8 +670,8 @@ media_status_control=Media status & control
 keep_wifi_on=Keep WiFi on
 keep_wifi_on_help=Tells Android to keep the WiFi always on and in high performance mode. If unchecked, WiFi connection might be lost on some devices after some time, in order to save power.<br><i>Reload is required for applying this change.</i>\t
 mqtt_use_websockets=Use websockets for MQTT
-new_install_message=<p>Thank you for installing Slideshow - Digital Signage player, we hope you will like it.</p><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- The Development team --</span>
-updated_version_message=<p>Slideshow app has been successfully updated to newer version. There are following changes in this version:</p><ul><li>Added Open-Meteo as a source of weather forecast</li><li>Added User-agent setting</li><li>Added API for triggering file synchronization</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
+new_install_message=<p>Thank you for installing Slideshow - Digital Signage player, we hope you will like it.</p><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
+updated_version_message=<p>Slideshow app has been successfully updated to newer version. There are following changes in this version:</p><ul><li>Added support for communication over serial port</li><li>Added support for setting preferred quality of YouTube videos</li><li>Added support for blurry background for images</li><li>Added API call for displaying previous file</li><li>Enhanced displaying Excel files</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
 welcome=Welcome
 mqtt_report_data=Report data through MQTT
 mqtt_report_data_help=Automatically send device info through MQTT every 2 minutes.<br><i>Reload is required for applying this change.</i>
@@ -780,3 +780,24 @@ action_up=Action on key up
 android_code=Android code
 request_user_agent=User agent for HTTP requests
 request_user_agent_help=HTTP User agent header used for requests made by this app, for example for displaying web pages or downloading content.<br><i>Reload is required for applying this change.</i>
+serial_port=Serial port
+serial_port_path=Serial port path
+serial_port_path_help=Enter 'USB' for serial over USB or '/dev/ttyXX' for direct serial. If empty, this app won't read data from serial port.<br><i>Reload is required for applying this change.</i>
+serial_port_rate=Serial port baud rate
+serial_port_rate_help=Baud rate of the serial port connection, usually 4800, 9600, 19200, 38400 or 57600.<br><i>Reload is required for applying this change.</i>
+serial_port_data_bits=Serial port data bits
+serial_port_stop_bits=Serial port stop bits
+serial_port_parity=Serial port parity
+serial_ports_available=Available serial ports
+serial_state=Serial port state
+restart_connection=Restart connection
+preferred_quality=Preferred quality
+preferred_quality_help=Preferred video quality. YouTube might not always honor this setting. Change only if "Automatic" doesn't produce the correct result.
+view_folder_in_file_manager=View folder in File manager
+number_of_files=Number of files
+image_background_type=Image background type
+image_background_type_help=Whether to fill the background of the zone with a blurred copy of the image in case the image has a different aspect ratio than the zone. Applicable only for image files. Overrides image scaling type to "Fit center".
+image_background_type_NONE=None
+image_background_type_BLURRED=Blurred
+image_background_type_BLURRED_LIGHTER=Blurred & lightened
+image_background_type_BLURRED_DARKER=Blurred & darkened
