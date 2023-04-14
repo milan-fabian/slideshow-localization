@@ -22,6 +22,7 @@ If you use a translation service (such as Google Translate) as a help, please re
 - German (thanks to Stefan Preitschaft)
 - Italian (thanks to Michele Fioretti)
 - Japanese (thanks to Takashi Yamaguchi)
+- Korean (thanks to Seok Gyo Seo)
 - Polish (thanks to Piotr Bujalski)
 - Portuguese (thanks to Jorge Soares)
 - Russian (thanks to Sergej Karpovič)

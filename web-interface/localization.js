@@ -12,6 +12,7 @@ localization["es"] = {};
 localization["ru"] = {};
 localization["ja"] = {};
 localization["sl"] = {};
+localization["ko"] = {};
 
 localization.en["reboot"] = "Reboot device";
 localization.en["reboot_success"] = "Device was successfully rebooted";
@@ -155,6 +156,17 @@ localization.sl["invalid_file_type"] = "Ta vrsta datoteke ni podprta";
 localization.sl["file_too_big"] = "Datoteka je prevelika ({{filesize}} MB), največja dovoljena velikost je {{maxFilesize}} MB";
 localization.sl["downloader_info"] = "Informacije o prenašanju";
 localization.sl["show_file"] = "Pokaži datoteko";
+
+localization.ko["reboot"] = "장치 재부팅";
+localization.ko["reboot_success"] = "장치가 성공적으로 재부팅되었습니다.";
+localization.ko["reload"] = "응용 프로그램 다시 로드";
+localization.ko["reload_success"] = "응용 프로그램이 성공적으로 다시 로드되었습니다.";
+localization.ko["save"] = "저장";
+localization.ko["drop_to_upload"] = "업로드하려면 여기를 클릭하거나 여기에 파일을 드롭하세요";
+localization.ko["invalid_file_type"] = "지원되지 않는 파일 유형";
+localization.ko["file_too_big"] = "파일이 너무 큽니다({{filesize}}MB). 최대 크기는 {{maxFilesize}}MB입니다.";
+localization.ko["downloader_info"] = "다운로드에 대한 정보";
+localization.ko["show_file"] = "파일 보기";
 
 function localizeString(key) {
 	return localization[choosen_language][key];

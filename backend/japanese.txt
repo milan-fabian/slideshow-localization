@@ -119,6 +119,7 @@ users=ユーザー
 file_rename_duplicate=この名前のファイルはすでに存在します。
 archive=アーカイブ
 playlist_switch_to=プレイリストに切り替える。
+playlist_audio_switch_to=バックグラウンド オーディオとして再生
 inactive=非活性
 usb_mount_action=USBドライブインサートに対するアクション
 usb_mount_action_do_nothing=何もしない
@@ -175,7 +176,7 @@ reboot_device=デバイス再起動
 reboot_info=再起動を押すと、画面が空白になり、デバイスが応答を停止します。約2分で再度ログインできます。
 reboot_question=このデバイスを再起動しますか？
 update_apply_reload=アプリケーションをリロードして、更新を適用します。
-item_path_help=タイプに応じて：<br><b>単一ファイル：</b>アップロードされたファイルの名前。<br><b>オーディオ/ビデオストリーム：</b>「http：//」を含むストリームのURLアドレスまたは「https：//」。<br><b>アルファベット順/ランダムファイル：</b>ワイルドカード（*）を使用して複数のファイルまたはフォルダを選択できます。たとえば、拡張子がjpgのすべてのファイルを「*」として追加できます。 jpg」の場合、「sales」という名前のサブフォルダー内のすべてのファイルを「sale/*」として追加するか、「promotion」で始まるサブフォルダー内のすべてのPDFファイルを「promotion*/*.pdf」として追加できます（引用符なし）。<br><b> YouTube動画：</ b> YouTube動画のURL全体（例： https://www.youtube.com/watch?v=dQw4w9WgXcQ。
+item_path_help=タイプに応じて：<br><b>単一ファイル：</b>アップロードされたファイルの名前。<br><b>オーディオ/ビデオストリーム：</b>「http：//」を含むストリームのURLアドレスまたは「https：//」。<br><b>アルファベット順/ランダムファイル：</b>ワイルドカード（*）を使用して複数のファイルまたはフォルダを選択できます。たとえば、拡張子がjpgのすべてのファイルを「*」として追加できます。 jpg」の場合、「sales」という名前のサブフォルダー内のすべてのファイルを「sale/*」として追加するか、「promotion」で始まるサブフォルダー内のすべてのPDFファイルを「promotion*/*.pdf」として追加できます（引用符なし）。<br><b>YouTube動画：</b> YouTube動画のURL全体（例： https://www.youtube.com/watch?v=dQw4w9WgXcQ。
 unsupported_extension=このファイルタイプはサポートされていません。
 downloader_log_empty=前回の起動以降、ファイルがダウンロードされていません。
 downloader_queue_length=ダウンロードキューの長さ
@@ -196,8 +197,9 @@ set_original_playlist=元のプレイリストを戻す
 set_original_screen_layout=元の画面レイアウトに戻す
 switch_fullscreen=フルスクリーン/ウィンドウ切替
 playlist_empty=プレイリストが空です。
-use_external_sdcard=外部ストレージを使用する。
-use_external_sdcard_help=オンにすると、再生するファイルは、内部メモリではなく、外部ストレージ（SDカードまたはUSBドライブ）に保存されます。このアプリの起動時には外部ストレージが存在する必要があります。<br><i>この変更を適用するには、リロードが必要です。</i>
+external_storage_path=メディアの保管
+external_storage_path_help=再生するファイルを保存するストレージを選択します。 Android デバイスの内部ストレージまたは外部ストレージ (利用可能な場合は SD カードまたは USB フラッシュ ドライブ) から選択します。 このアプリの実行中は、外部ストレージが常に存在する必要があります。 非永続的な外部ストレージを使用している場合は、[フラッシュ ドライブ挿入時のアクション] の設定を確認してください。<br><i>この変更を適用するには再読み込みが必要です。</i>
+internal_storage=内部記憶装置
 file_data_checker_rate=ファイルをチェックする頻度
 file_data_checker_rate_help=秒単位の頻度、設定された時間に削除する必要があるファイルをチェックする頻度。この機能には時間同期が必要なため、この設定にはインターネットへの接続が必要です。<br><i>この変更を適用するにはリロードが必要です。</i>
 watchdog_reboot_time=再起動時間（ウォッチドッグ）
@@ -315,7 +317,7 @@ top=上
 date_format=日付形式
 date_format_help=表示される日付の形式、いくつかの例：<br>"EEEE, dd.M.yyyy" - Wednesday, 20.3.2019<br>"EEEE, mm/dd/yyyy" - Wednesday, 03/20/2019<br>"MMM dd, yyyy" - Mar 20, 2019<br><i>詳細については、<a href ="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.htmlを参照してください。</a></i>
 time_format=時間形式
-time_format_help=表示時間の形式、いくつかの例：<br>"HH：mm"-20:33<br>"h：mm a"-8:33 PM<br><i>詳細については、<a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html"> https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.htmlを参照してください。 </a></i>
+time_format_help=表示時間の形式、いくつかの例：<br>"HH：mm"-20:33<br>"h：mm a"-8:33 PM<br><i>詳細については、<a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html"> https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.htmlを参照してください。</a></i>
 date_format_empty=日付形式を空にすることはできません
 date_format_invalid=日付形式が無効です
 time_format_empty=時間形式を空にすることはできません
@@ -668,7 +670,7 @@ media_status_control=メディアのステータスと管理
 keep_wifi_on=WiFiをオンにしてください。
 keep_wifi_on_help=Wi-Fiを常にオンにして高性能モードに保つようにAndroidに指示します。チェックを外すと、電力を節約するために、しばらくすると一部のデバイスでWi-Fi接続が失われる可能性があります。<br><i>この変更を適用するにはリロードが必要です。</i> 
 mqtt_use_websockets=MQTTにWebSocketを使用する。
-new_install_message=<p> Slideshow-DigitalSignageplayerをインストールしていただきありがとうございます。気に入っていただければ幸いです。</p><p>機能のドキュメントは、<a href="https://slideshow.digital/documentation/" target = "_ blank"> https://slideshow.digital/documentation/にある </a>で、<a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https：//www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQのチュートリアルをご覧ください。</a>。</p> <span style ='float：right'>-開発チーム-</ span>
+new_install_message=<p> Slideshow-DigitalSignageplayerをインストールしていただきありがとうございます。気に入っていただければ幸いです。</p><p>機能のドキュメントは、<a href="https://slideshow.digital/documentation/" target = "_ blank"> https://slideshow.digital/documentation/にある</a>で、<a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https：//www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQのチュートリアルをご覧ください。</a>。</p> <span style ='float：right'>-開発チーム-</ span>
 updated_version_message=<p>Slideshowアプリが正常に新しいバージョンに更新されました。次の新機能があります。</p><p>機能のドキュメントは、<a href = "https：// slideshow.digital/documentation/ "target =" _ blank ">https://slideshow.digital/documentation/</a>および<a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ"のチュートリアルをご覧くださいtarget = "_ blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>。</p><p>Slideshowアプリが気に入った場合は、<a hrefでアプリを評価することで開発をサポートできます。 = "https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target = "_ blank"> GooglePlay</a>または<a href="https://ko-fi.com/slideshow" target =" _blank">コーヒーを購入してください</a>。</p><span style ='float：right'>-開発チーム-</span>
 welcome=ようこそ
 mqtt_report_data=MQTTを介してデータを報告する
@@ -827,3 +829,5 @@ youtube_show_captions=YouTube のキャプションを表示
 youtube_show_captions_help=YouTube 動画のキャプション (字幕) を表示するかどうか。 自動生成されたキャプションでは機能しません。<br><i>この変更を適用するには再読み込みが必要です。</i>
 add_row=行を追加する
 server_folder_empty=サーバー フォルダを空にすることはできません
+sync_playback_with_zones=ゾーンとの同期再生
+free=無料
