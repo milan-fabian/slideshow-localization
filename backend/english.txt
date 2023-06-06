@@ -165,8 +165,8 @@ yes=Yes
 no=No
 password_help=Password should be at least 5 characters long. If you don't want to change the password, keep this field empty.
 role=User role
-change_content_length_error=Can't change length of showing
-change_content_length=Current length of showing
+change_content_length_error=Can't change duration of the current content
+change_content_length=Current duration of content
 update_app=Application update
 current_version=Current version
 new_apk_file=New APK file
@@ -671,7 +671,7 @@ keep_wifi_on=Keep WiFi on
 keep_wifi_on_help=Tells Android to keep the WiFi always on and in high performance mode. If unchecked, WiFi connection might be lost on some devices after some time, in order to save power.<br><i>Reload is required for applying this change.</i>\t
 mqtt_use_websockets=Use websockets for MQTT
 new_install_message=<p>Thank you for installing Slideshow - Digital Signage player, we hope you will like it.</p><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
-updated_version_message=<p>Slideshow app has been successfully updated to a newer version. There are following changes in this version:</p><ul><li>Added possibility to set custom zoom and hide loading icon for webpages (see menu File Manager - right click URL file - Edit file - Enter web page)</li><li>Fixed TXT file scrolling</li><li>Fixed processing folders with upper case letters on x86 systems</li><li>Fixed preloading PDF files</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
+updated_version_message=<p>Slideshow app has been successfully updated to a newer version. There are following changes in this version:</p><ul><li>Added history to File synchronization page</li><li>Fixed file synchronization to external storage</li><li>Small fixes & enhancements</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
 welcome=Welcome
 mqtt_report_data=Report data through MQTT
 mqtt_report_data_help=Automatically send device info through MQTT every 2 minutes.<br><i>Reload is required for applying this change.</i>
@@ -831,3 +831,14 @@ add_row=Add row
 server_folder_empty=Server folder can't be empty
 sync_playback_with_zones=Synchronized playback with zones
 free=free
+started=Started
+finished=Finished
+synchronization_history=History of performed synchronizations
+synchronization_history_empty=No file synchronization has been performed since the last time the app started
+start_method_MANUAL=Manually
+start_method_SCHEDULER=By scheduler
+start_method_API=Using API
+change_content_duration=Change duration
+change_current_content_duration=Change duration of the currently displayed content
+change_content_duration_wrong_playlist=Can't change duration of the current content, because the playlist is manually changed
+seconds=seconds
