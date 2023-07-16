@@ -310,7 +310,7 @@ screen_orientation=Orientácia obrazovky
 screen_orientation_DEFAULT=Predvolená
 screen_orientation_LANDSCAPE=Na šírku
 screen_orientation_PORTRAIT=Na výšku
-screen_orientation_help=Orientácia obrazovky pre túto aplikáciu.<br><i>Reštart aplikácie je vyžadovaný pre aplikovanie tohto nastavenia.</i>
+screen_orientation_help=Orientácia obrazovky pre túto aplikáciu. Niektoré možnosti nemusia fungovať na niektorých zariadeniach (podpora závisí od hardwaru).<br><i>Reštart aplikácie je vyžadovaný pre aplikovanie tohto nastavenia.</i>
 main_panel=Hlavná zóna
 left=Zľava
 top=Zhora
@@ -670,8 +670,8 @@ media_status_control=Stav a ovládanie
 keep_wifi_on=Nechať WiFi zapnuté
 keep_wifi_on_help=Informácia pre operačný systém, aby nechal WiFi stále zapnuté a v móde vysokého výkonu. Ak je vypnuté, WiFi pripojenie môže byť na niektorých zariadeniach po čase vypnuté, kvôli šetreniu energie.<br><i>Reštart aplikácie je vyžadovaný pre aplikovanie tohto nastavenia.</i>
 mqtt_use_websockets=Použiť websockety pre MQTT
-new_install_message=<p>Ďakujeme, že ste si nainštalovali Slideshow - Digital Signage player a dúfame, že sa vám bude táto aplikácia páčiť.</p><p>Dokumentáciu funkcií môžete nájsť na <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>, online tutoriály si môžete pozrieť na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- Vývojový tím --</span>
-updated_version_message=<p>Aplikácia Slideshow bola úspešne aktualizovaná na novšiu verziu.</p><p>Dokumentáciu funkcií môžete nájsť na <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>, online tutoriály si môžete pozrieť na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- Vývojový tím --</span>
+new_install_message=<p>Ďakujeme, že ste si nainštalovali Slideshow - Digital Signage player a dúfame, že sa vám bude táto aplikácia páčiť.</p><p>Dokumentáciu funkcií môžete nájsť na <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>, online tutoriály si môžete pozrieť na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>Ak ste spokojný s aplikáciou Slideshow, môžete podporiť jej vývoj hodnotením aplikácie na <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target= "_blank">Google Play</a> alebo nám môžete kúpiť <a href="https://ko-fi.com/slideshow" target="_blank">kávu</a>.</p><span style='float:right'>-- Vývojársky tím --</span>
+updated_version_message=<p>Aplikácia Slideshow bola úspešne aktualizovaná na novšiu verziu.</p><p>Dokumentáciu funkcií môžete nájsť na <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>, online tutoriály si môžete pozrieť na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>Ak ste spokojný s aplikáciou Slideshow, môžete podporiť jej vývoj hodnotením aplikácie na <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target= "_blank">Google Play</a> alebo nám môžete kúpiť <a href="https://ko-fi.com/slideshow" target="_blank">kávu</a>.</p><span style='float:right'>-- Vývojársky tím --</span>
 welcome=Vitajte
 mqtt_report_data=Zasielať report cez MQTT
 mqtt_report_data_help=Automaticky zasielať informácie o zariadení cez MQTT každé dve minúty.<br><i>Reštart aplikácie je vyžadovaný pre aplikovanie tohto nastavenia.</i>
@@ -842,3 +842,13 @@ change_content_duration=Zmeniť dĺźku
 change_current_content_duration=Zmeniť dĺžku zobrazovania aktuálnej položky
 change_content_duration_wrong_playlist=Nie je možné zmeniť dĺžku zobrazovania, pretože playlist je aktuálne manuálne zmenený
 seconds=sekúnd
+screen_orientation_ROTATE_0=Otočiť o 0° (pomocou senzora orientácie)
+screen_orientation_ROTATE_1=Otočiť o 90° (pomocou senzora orientácie)
+screen_orientation_ROTATE_2=Otočiť o 180° (pomocou senzora orientácie)
+screen_orientation_ROTATE_3=Otočiť o 270° (pomocou senzora orientácie)
+transition_type_CUBE_INSIDE=Kocka zvnútra (zprava)
+transition_type_CUBE_INSIDE_RANDOM=Kocka zvnútra (náhodný smer)
+transition_type_CUBE_OUTSIDE=Kocka zvonka (zprava)
+transition_type_CUBE_OUTSIDE_RANDOM=Kocka zvonka (náhodný smer)
+https_disable_security=Vypnúť kontrolu HTTPS pri načítaní údajov
+https_disable_security_help=Vypnúť kontrolu certifikátu HTTPS pri načítavaní externých údajov cez HTTPS (predpoveď počasia, správy RSS, synchronizácia súborov atď.). <b>Táto možnosť je veľmi nebezpečná, zapnite ju len pokiaľ ste si vedomý jej dopadov.</b><br><i>Reštart aplikácie je vyžadovaný pre aplikovanie tohto nastavenia.</i>

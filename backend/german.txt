@@ -310,7 +310,7 @@ screen_orientation=Bildschirm-Ausrichtung
 screen_orientation_DEFAULT=Standard
 screen_orientation_LANDSCAPE=Querformat (Landscape)
 screen_orientation_PORTRAIT=Hochformat (Portrait)
-screen_orientation_help=Bildschirmorientierung für diese Anwendung.<br><i>Für die Anwendung dieser Änderung ist Nachladen erforderlich.</i>
+screen_orientation_help=Bildschirmorientierung für diese Anwendung. Einige Optionen funktionieren möglicherweise auf einigen Geräten nicht (Unterstützung hängt von der Hardware ab).<br><i>Für die Anwendung dieser Änderung ist Nachladen erforderlich.</i>
 main_panel=Hauptpanel
 left=Links
 top=Nach oben
@@ -670,8 +670,8 @@ media_status_control=Medienstatus und -kontrolle
 keep_wifi_on=WLAN eingeschaltet lassen
 keep_wifi_on_help=Weist Android an, das WLAN immer eingeschaltet und im Hochleistungsmodus zu halten. Wenn diese Option deaktiviert ist, kann die WLAN-Verbindung auf einigen Geräten nach einiger Zeit unterbrochen werden, um Strom zu sparen.<br><i>Änderungen werden erst nach einem Neustart der Anwendung wirksam.</i>
 mqtt_use_websockets=Verwenden Sie Websockets für MQTT
-new_install_message=<p>Vielen Dank, dass Sie Slideshow - Digital Signage Player installiert haben. Wir hoffen, dass es Ihnen gefällt.</p><p>Sie finden die Dokumentation für Funktionen unter <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> und sehen Sie sich Tutorials auf <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- Das Entwicklungsteam --</span>
-updated_version_message=<p>Slideshow-App wurde erfolgreich auf eine neuere Version aktualisiert.</p><p>Dokumentation für Funktionen finden Sie unter <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> und sehen Sie sich Tutorials auf <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- Das Entwicklungsteam --</span>
+new_install_message=<p>Vielen Dank, dass Sie Slideshow - Digital Signage Player installiert haben. Wir hoffen, dass es Ihnen gefällt.</p><p>Sie finden die Dokumentation für Funktionen unter <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> und sehen Sie sich Tutorials auf <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>Wenn Ihnen die Slideshow-App gefällt, können Sie die Entwicklung unterstützen, indem Sie die App auf <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> oder kaufen Sie uns einen <a href="https://ko-fi.com/slideshow" target="_blank">Kaffee</a>.</p><span style='float:right'>-- Das Entwicklungsteam --</span>
+updated_version_message=<p>Slideshow-App wurde erfolgreich auf eine neuere Version aktualisiert.</p><p>Dokumentation für Funktionen finden Sie unter <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> und sehen Sie sich Tutorials auf <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>Wenn Ihnen die Slideshow-App gefällt, können Sie die Entwicklung unterstützen, indem Sie die App auf <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> oder kaufen Sie uns einen <a href="https://ko-fi.com/slideshow" target="_blank">Kaffee</a>.</p><span style='float:right'>-- Das Entwicklungsteam --</span>
 welcome=Herzlich willkommen
 mqtt_report_data=Melden Sie Daten über MQTT
 mqtt_report_data_help=Senden Sie automatisch alle 2 Minuten Geräteinformationen über MQTT.<br><i>Neu laden ist erforderlich, um diese Änderung zu übernehmen.</i>
@@ -842,3 +842,13 @@ change_content_duration=Dauer ändern
 change_current_content_duration=Dauer des aktuell angezeigten Inhalts ändern
 change_content_duration_wrong_playlist=Die Dauer des aktuellen Inhalts kann nicht geändert werden, da die Wiedergabeliste manuell geändert wird
 seconds=Sekunden
+screen_orientation_ROTATE_0=Um 0° drehen
+screen_orientation_ROTATE_1=Um 90° drehen
+screen_orientation_ROTATE_2=Um 180° drehen
+screen_orientation_ROTATE_3=Um 270° drehen
+transition_type_CUBE_INSIDE=Würfel von innen (rechts)
+transition_type_CUBE_INSIDE_RANDOM=Würfel von innen (zufällige Richtung)
+transition_type_CUBE_OUTSIDE=Würfel von außen (rechts)
+transition_type_CUBE_OUTSIDE_RANDOM=Würfel von außen (zufällige Richtung)
+https_disable_security=Deaktivieren die HTTPS-Sicherheit zum Laden von Daten
+https_disable_security_help=Deaktivieren die HTTPS-Zertifikatsprüfung beim Laden externer Daten über HTTPS (Wettervorhersage, RSS-Feeds, Dateisynchronisierung usw.). <b>Diese Option ist sehr unsicher. Aktivieren Sie sie nur, wenn Sie sich der Auswirkungen auf die Sicherheit bewusst sind.</b><br><i>Zum Anwenden dieser Änderung ist ein Neuladen erforderlich.</i>

@@ -670,8 +670,8 @@ media_status_control=Stato e controllo dei media
 keep_wifi_on=Mantieni il Wi-Fi attivo
 keep_wifi_on_help=Dice ad Android di mantenere il WiFi sempre attivo e in modalità ad alte prestazioni. Se deselezionata, la connessione Wi-Fi potrebbe interrompersi su alcuni dispositivi dopo un po' di tempo, per risparmiare energia.<br><i>È necessario ricaricare per applicare questa modifica.</i>
 mqtt_use_websockets=Usa i WebSocket per MQTT
-new_install_message=<p>Grazie per aver installato Slideshow - Lettore di segnaletica digitale, speriamo che ti piaccia.</p><p>Puoi trovare la documentazione per le funzionalità su <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> e guarda i tutorial su <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- Il team di sviluppo --</span>
-updated_version_message=<p>L'app Slideshow è stata aggiornata correttamente a una versione più recente.</p><p>Puoi trovare la documentazione per le funzionalità su <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> e guarda i tutorial su <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- Il team di sviluppo --</span>
+new_install_message=<p>Grazie per aver installato Slideshow - Lettore di segnaletica digitale, speriamo che ti piaccia.</p><p>Puoi trovare la documentazione per le funzionalità su <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> e guarda i tutorial su <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>Se ti piace l'app Slideshow, puoi supportare lo sviluppo valutando l'app su <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> o compraci un <a href="https://ko-fi.com/slideshow" target="_blank">caffè</a>.</p><span style='float:right'>-- Il team di sviluppo --</span>
+updated_version_message=<p>L'app Slideshow è stata aggiornata correttamente a una versione più recente.</p><p>Puoi trovare la documentazione per le funzionalità su <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> e guarda i tutorial su <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>Se ti piace l'app Slideshow, puoi supportare lo sviluppo valutando l'app su <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> o compraci un <a href="https://ko-fi.com/slideshow" target="_blank">caffè</a>.</p><span style='float:right'>-- Il team di sviluppo --</span>
 welcome=Benvenuto
 mqtt_report_data=Riportare i dati tramite MQTT
 mqtt_report_data_help=Invia automaticamente informazioni sul dispositivo tramite MQTT ogni 2 minuti.<br><i>Per applicare questa modifica è necessario ricaricare.</i>
@@ -842,3 +842,13 @@ change_content_duration=Cambia durata
 change_current_content_duration=Modificare la durata del contenuto attualmente visualizzato
 change_content_duration_wrong_playlist=Impossibile modificare la durata del contenuto corrente perché la playlist viene modificata manualmente
 seconds=secondi
+screen_orientation_ROTATE_0=Ruota di 0°
+screen_orientation_ROTATE_1=Ruota di 90°
+screen_orientation_ROTATE_2=Ruota di 180°
+screen_orientation_ROTATE_3=Ruota di 270°
+transition_type_CUBE_INSIDE=Cubo dall'interno (a destra)
+transition_type_CUBE_INSIDE_RANDOM=Cubo dall'interno (direzione casuale)
+transition_type_CUBE_OUTSIDE=Cubo dall'esterno (a destra)
+transition_type_CUBE_OUTSIDE_RANDOM=Cubo dall'esterno (direzione casuale)
+https_disable_security=Disattiva la sicurezza HTTPS per il caricamento dei dati
+https_disable_security_help=Disabilita il controllo del certificato HTTPS durante il caricamento di dati esterni tramite HTTPS (previsioni meteo, feed RSS, sincronizzazione file, ecc.). <b>Questa opzione è molto poco sicura, abilitala solo se sei a conoscenza delle implicazioni sulla sicurezza.</b><br><i>Per applicare questa modifica è necessario ricaricare.</i>

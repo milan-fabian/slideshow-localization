@@ -310,7 +310,7 @@ screen_orientation=Screen orientation
 screen_orientation_DEFAULT=Default
 screen_orientation_LANDSCAPE=Landscape
 screen_orientation_PORTRAIT=Portrait
-screen_orientation_help=Screen orientation for this application.<br><i>Reload is required for applying this change.</i>
+screen_orientation_help=Screen orientation for this application. Some options might not work on some devices (support depends on the hardware).<br><i>Reload is required for applying this change.</i>
 main_panel=Main zone
 left=Left
 top=Top
@@ -671,7 +671,7 @@ keep_wifi_on=Keep WiFi on
 keep_wifi_on_help=Tells Android to keep the WiFi always on and in high performance mode. If unchecked, WiFi connection might be lost on some devices after some time, in order to save power.<br><i>Reload is required for applying this change.</i>\t
 mqtt_use_websockets=Use websockets for MQTT
 new_install_message=<p>Thank you for installing Slideshow - Digital Signage player, we hope you will like it.</p><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
-updated_version_message=<p>Slideshow app has been successfully updated to a newer version. There are following changes in this version:</p><ul><li>Added history to File synchronization page</li><li>Fixed file synchronization to external storage</li><li>Small fixes & enhancements</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
+updated_version_message=<p>Slideshow app has been successfully updated to a newer version. There are following changes in this version:</p><ul><li>Added new transitions (3D cube effect)</li><li>Added changing content duration from the on-screen controls</li><li>Added support for changing the entire device orientation (see Device Settings - Screen orientation)</li><li>Added possibility to disable HTTPS certificate check for loading data (see setting Disable HTTPS security for loading data)</li><li>Enhanced date/time formatting in XML backup</li><li>Fixed WebDAV sync with Nextcloud</li><li>Fixed high-resolution playback artifacts with ExoPlayer + TextureView on some devices</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
 welcome=Welcome
 mqtt_report_data=Report data through MQTT
 mqtt_report_data_help=Automatically send device info through MQTT every 2 minutes.<br><i>Reload is required for applying this change.</i>
@@ -842,3 +842,13 @@ change_content_duration=Change duration
 change_current_content_duration=Change duration of the currently displayed content
 change_content_duration_wrong_playlist=Can't change duration of the current content, because the playlist is manually changed
 seconds=seconds
+screen_orientation_ROTATE_0=Rotate 0° (using orientation sensor, on rooted devices only)
+screen_orientation_ROTATE_1=Rotate 90° (using orientation sensor, on rooted devices only)
+screen_orientation_ROTATE_2=Rotate 180° (using orientation sensor, on rooted devices only)
+screen_orientation_ROTATE_3=Rotate 270° (using orientation sensor, on rooted devices only)
+transition_type_CUBE_INSIDE=Inside cube (from right)
+transition_type_CUBE_INSIDE_RANDOM=Inside cube (random direction)
+transition_type_CUBE_OUTSIDE=Outside cube (from right)
+transition_type_CUBE_OUTSIDE_RANDOM=Outside cube (random direction)
+https_disable_security=Disable HTTPS security for loading data
+https_disable_security_help=Disable HTTPS certificate check while loading external data through HTTPS (weather forecast, RSS feeds, File synchronization, etc.). <b>This option is very insecure, only enable it if you are aware of the security implications.</b><br><i>Reload is required for applying this change.</i>

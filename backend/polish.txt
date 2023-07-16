@@ -670,8 +670,8 @@ media_status_control=Status i kontrola mediów
 keep_wifi_on=Pozostaw Wi-Fi włączone
 keep_wifi_on_help=Nakazuje systemowi Android, aby sieć Wi-Fi była zawsze włączona i działała w trybie wysokiej wydajności. Jeśli ta opcja nie jest zaznaczona, połączenie Wi-Fi może zostać po pewnym czasie utracone na niektórych urządzeniach w celu oszczędzania energii.<br><i>Przeładowanie jest wymagane do zastosowania tej zmiany.</i>
 mqtt_use_websockets=Użyj gniazd sieciowych dla MQTT
-new_install_message=<p>Dziękujemy za zainstalowanie Slideshow – odtwarzacza Digital Signage, mamy nadzieję, że Ci się spodoba.</p><p>Dokumentację funkcji znajdziesz na <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> i obejrzyj samouczki na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- Zespół programistów --</span>
-updated_version_message=<p>Aplikacja Slideshow została pomyślnie zaktualizowana do nowszej wersji.</p><p>Dokumentację funkcji znajdziesz na <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> i obejrzyj samouczki na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- Zespół programistów --</span>
+new_install_message=<p>Dziękujemy za zainstalowanie Slideshow – odtwarzacza Digital Signage, mamy nadzieję, że Ci się spodoba.</p><p>Dokumentację funkcji znajdziesz na <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> i obejrzyj samouczki na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>Jeśli podoba Ci się aplikacja Pokaz slajdów, możesz wesprzeć jej rozwój, oceniając ją na <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> lub kup nam <a href="https://ko-fi.com/slideshow" target="_blank">kawę</a>.</p><span style='float:right'>-- Zespół programistów --</span>
+updated_version_message=<p>Aplikacja Slideshow została pomyślnie zaktualizowana do nowszej wersji.</p><p>Dokumentację funkcji znajdziesz na <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> i obejrzyj samouczki na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>Jeśli podoba Ci się aplikacja Pokaz slajdów, możesz wesprzeć jej rozwój, oceniając ją na <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> lub kup nam <a href="https://ko-fi.com/slideshow" target="_blank">kawę</a>.</p><span style='float:right'>-- Zespół programistów --</span>
 welcome=Powitanie
 mqtt_report_data=Raportuj dane przez MQTT
 mqtt_report_data_help=Automatycznie wysyłaj informacje o urządzeniu przez MQTT co 2 minuty.<br><i>Do zastosowania tej zmiany wymagane jest ponowne załadowanie.</i>
@@ -842,3 +842,13 @@ change_content_duration=Zmień czas trwania
 change_current_content_duration=Zmień czas trwania aktualnie wyświetlanej treści
 change_content_duration_wrong_playlist=Nie można zmienić czasu trwania bieżącej zawartości, ponieważ playlista została zmieniona ręcznie
 seconds=sekundy
+screen_orientation_ROTATE_0=Obróć o 0°
+screen_orientation_ROTATE_1=Obróć o 90°
+screen_orientation_ROTATE_2=Obróć o 180°
+screen_orientation_ROTATE_3=Obróć o 270°
+transition_type_CUBE_INSIDE=Kostka od wewnątrz (po prawej)
+transition_type_CUBE_INSIDE_RANDOM=Kostka od wewnątrz (losowy kierunek)
+transition_type_CUBE_OUTSIDE=Kostka od zewnątrz (po prawej)
+transition_type_CUBE_OUTSIDE_RANDOM=Kostka od zewnątrz (losowy kierunek)
+https_disable_security=Wyłącz zabezpieczenia HTTPS do ładowania danych
+https_disable_security_help=Wyłącz sprawdzanie certyfikatu HTTPS podczas ładowania danych zewnętrznych przez HTTPS (prognoza pogody, kanały RSS, synchronizacja plików itp.). <b>Ta opcja jest bardzo niepewna, włączaj ją tylko wtedy, gdy jesteś świadomy wpływu na bezpieczeństwo.</b><br><i>Aby zastosować tę zmianę, wymagane jest ponowne załadowanie.</i>

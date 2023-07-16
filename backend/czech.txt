@@ -310,7 +310,7 @@ screen_orientation=Orientace obrazovky
 screen_orientation_DEFAULT=Předvolená
 screen_orientation_LANDSCAPE=Na šířku
 screen_orientation_PORTRAIT=Na výšku
-screen_orientation_help=Orientace obrazovky pro tuto aplikaci.<br><i>Změna se projeví až po restartu aplikace.</i>
+screen_orientation_help=Orientace obrazovky pro tuto aplikaci. Některé možnosti nemusí fungovat na některých zařízeních (podpora závisí na hardwaru).<br><i>Změna se projeví až po restartu aplikace.</i>
 main_panel=Hlavní zóna
 left=Zleva
 top=Shora
@@ -670,8 +670,8 @@ media_status_control=Stav a ovládání
 keep_wifi_on=Nechat WiFi zapnuto
 keep_wifi_on_help=Informace pro operační systém, aby nechal WiFi stále zapnuto a v módu vysokého výkonu. Je-li vypnuto, WiFi připojení může být na některých zařízeních po čase vypnuto, kvůli šetření energie.<br><i>Změny se projeví až po restartu aplikace.</i>
 mqtt_use_websockets=Použít websockety pro MQTT
-new_install_message=<p>Děkujeme, že jste si nainstalovali Slideshow - Digital Signage player a doufáme, že se vám bude tato aplikace líbit.</p><p>Dokumentaci funkcí můžete najít na <a href="https://slideshow.digital/ documentation/" target="_blank">https://slideshow.digital/documentation/</a>, online tutoriály si můžete prohlédnout na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target ="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- Vývojový tým --</span>
-updated_version_message=<p>Aplikace Slideshow byla úspěšně aktualizována na novější verzi.</p><p>Dokumentaci funkcí naleznete na <a href="https://slideshow.digital/documentation/" target="_blank">https:// slideshow.digital/documentation/</a>, online tutoriály si můžete prohlédnout na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><span style='float:right'>-- Vývojový tým --</span>
+new_install_message=<p>Děkujeme, že jste si nainstalovali Slideshow - Digital Signage player a doufáme, že se vám bude tato aplikace líbit.</p><p>Dokumentaci funkcí můžete najít na <a href="https://slideshow.digital/ documentation/" target="_blank">https://slideshow.digital/documentation/</a>, online tutoriály si můžete prohlédnout na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target ="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>Jste-li spokojeni s aplikací Slideshow, můžete podpořit její vývoj hodnocením aplikace na <a href="https://play.google.com/store/apps/details?id=cs.mimac.slideshow" target= "_blank ">Google Play</a> nebo nám můžete koupit <a href="https://ko-fi.com/slideshow" target="_blank">kávu</a>.</p><span style='float:right'>-- Vývojový tým --</span>
+updated_version_message=<p>Aplikace Slideshow byla úspěšně aktualizována na novější verzi.</p><p>Dokumentaci funkcí naleznete na <a href="https://slideshow.digital/documentation/" target="_blank">https:// slideshow.digital/documentation/</a>, online tutoriály si můžete prohlédnout na <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>Jste-li spokojeni s aplikací Slideshow, můžete podpořit její vývoj hodnocením aplikace na <a href="https://play.google.com/store/apps/details?id=cs.mimac.slideshow" target= "_blank ">Google Play</a> nebo nám můžete koupit <a href="https://ko-fi.com/slideshow" target="_blank">kávu</a>.</p><span style='float:right'>-- Vývojový tým --</span>
 welcome=Vítejte
 mqtt_report_data=Zasílat report přes MQTT
 mqtt_report_data_help=Automaticky zasílat informace o zařízení přes MQTT každé dvě minuty.<br><i>Restart aplikace je vyžadován pro aplikování tohoto nastavení.</i>
@@ -842,3 +842,13 @@ change_content_duration=Změnit délku
 change_current_content_duration=Změnit délku zobrazování aktuální položky
 change_content_duration_wrong_playlist=Nelze změnit délku zobrazování, protože playlist je aktuálně manuálně změněn
 seconds=vteřin
+screen_orientation_ROTATE_0=Otočit o 0°
+screen_orientation_ROTATE_1=Otočit o 90°
+screen_orientation_ROTATE_2=Otočit o 180°
+screen_orientation_ROTATE_3=Otočit o 270°
+transition_type_CUBE_INSIDE=Kostka zevnitř (zprava)
+transition_type_CUBE_INSIDE_RANDOM=Kostka zevnitř (náhodný směr)
+transition_type_CUBE_OUTSIDE=Kostka zvenčí (zprava)
+transition_type_CUBE_OUTSIDE_RANDOM=Kostka zvenčí (náhodný směr)
+https_disable_security=Vypnout kontrolu HTTPS při načítání údajů
+https_disable_security_help=Vypnout kontrolu certifikátu HTTPS při načítání externích dat přes HTTPS (předpověď počasí, zprávy RSS, synchronizace souborů atd.). <b>Tato možnost je velmi nebezpečná, zapněte ji jen pokud jste si vědom jejích dopadů.</b><br><i>Restart aplikace je vyžadován pro aplikování tohoto nastavení.</i>
