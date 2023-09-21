@@ -869,3 +869,5 @@ sample_screen_layout_ANIMATION_AND_TIME_help=Panel główny przedstawiający obr
 sample_screen_layout_MOVING_RSS=Z przewijanym kanałem RSS
 sample_screen_layout_MOVING_RSS_help=Główny panel pokazujący wszystkie pliki w cyklu, z półprzezroczystym przewijanym kanałem RSS na dole.
 media_files=Pliki medialne
+webview_clear_cache=Wyczyść pamięć podręczną sieci Web na początku
+webview_clear_cache_help=Jeśli jest włączona, ta aplikacja przy każdym uruchomieniu czyści pamięć podręczną stron internetowych, w tym pliki cookie, dane formularzy i pamięć internetową.<br><i>Aby zastosować tę zmianę, wymagane jest ponowne załadowanie.</i>

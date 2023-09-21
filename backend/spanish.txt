@@ -869,3 +869,5 @@ sample_screen_layout_ANIMATION_AND_TIME_help=Panel principal que muestra imágen
 sample_screen_layout_MOVING_RSS=Con feed RSS de desplazamiento
 sample_screen_layout_MOVING_RSS_help=Panel principal que muestra todos los archivos en ciclo, con feed RSS de desplazamiento semitransparente en la parte inferior.
 media_files=Archivos multimedia
+webview_clear_cache=Borrar caché web al iniciar
+webview_clear_cache_help=Si está habilitada, esta aplicación borrará el caché de las páginas web en cada inicio, incluidas las cookies, los datos de formularios y el almacenamiento web.<br><i>Es necesario volver a cargar para aplicar este cambio.</i>

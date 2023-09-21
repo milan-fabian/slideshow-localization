@@ -869,3 +869,5 @@ sample_screen_layout_ANIMATION_AND_TIME_help=Hlavný panel zobrazujúci obrázky
 sample_screen_layout_MOVING_RSS=S pohyblivým textom
 sample_screen_layout_MOVING_RSS_help=Hlavný panel zobrazujúci všetky súbory v cykle, s polo-priesvitným panelom s pohyblivým textom z RSS kanála v spodnej časti.
 media_files=Multimediálne súbory
+webview_clear_cache=Vymazať web cache pri štarte
+webview_clear_cache_help=Ak je povolené, táto aplikácia vymaže vyrovnávaciu pamäť pre webové stránky pri každom spustení, vrátane súborov cookie, údajov formulárov a webového úložiska.<br><i>Reštart aplikácie je vyžadovaný pre aplikovanie tohto nastavenia.</i>

@@ -869,3 +869,5 @@ sample_screen_layout_ANIMATION_AND_TIME_help=Glavna ploča prikazuje slike iz ma
 sample_screen_layout_MOVING_RSS=S pomičnim RSS feedom
 sample_screen_layout_MOVING_RSS_help=Glavna ploča prikazuje sve datoteke u ciklusu, s poluprozirnim pomičnim RSS feedom na dnu.
 media_files=Medijske datoteke
+webview_clear_cache=Očisti web predmemoriju pri pokretanju
+webview_clear_cache_help=Ako je omogućena, ova će aplikacija pri svakom pokretanju obrisati predmemoriju za web stranice, uključujući kolačiće, podatke obrasca i web pohranu.<br><i>Potrebno je ponovno učitavanje za primjenu ove promjene.</i>

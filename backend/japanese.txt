@@ -869,3 +869,5 @@ sample_screen_layout_ANIMATION_AND_TIME_help=メイン パネルには、「imag
 sample_screen_layout_MOVING_RSS=スクロールRSSフィードあり
 sample_screen_layout_MOVING_RSS_help=メイン パネルにはすべてのファイルが周期的に表示され、下部には半透明のスクロール RSS フィードが表示されます。
 media_files=メディアファイル
+webview_clear_cache=起動時にWebキャッシュをクリアする
+webview_clear_cache_help=有効にすると、このアプリは起動するたびに、Cookie、フォーム データ、ウェブ ストレージを含むウェブページのキャッシュをクリアします。<br><i>この変更を適用するには再読み込みが必要です。</i>

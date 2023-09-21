@@ -869,3 +869,5 @@ sample_screen_layout_ANIMATION_AND_TIME_help=Panneau principal affichant les ima
 sample_screen_layout_MOVING_RSS=Avec flux RSS défilant
 sample_screen_layout_MOVING_RSS_help=Panneau principal affichant tous les fichiers en cycle, avec flux RSS défilant semi-transparent en bas.
 media_files=Fichiers multimédias
+webview_clear_cache=Vider le cache Web au démarrage
+webview_clear_cache_help=Si elle est activée, cette application videra le cache des pages Web à chaque démarrage, y compris les cookies, les données de formulaire et le stockage Web.<br><i>Un rechargement est requis pour appliquer cette modification.</i>

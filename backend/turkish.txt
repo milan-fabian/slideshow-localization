@@ -869,3 +869,5 @@ sample_screen_layout_ANIMATION_AND_TIME_help=Görüntüler klasöründeki görü
 sample_screen_layout_MOVING_RSS=Kayan RSS beslemesi ile
 sample_screen_layout_MOVING_RSS_help=Altta yarı saydam kayan RSS beslemesi ile döngüdeki tüm dosyaları gösteren ana panel.
 media_files=Medya dosyaları
+webview_clear_cache=Başlangıçta web önbelleğini temizle
+webview_clear_cache_help=Etkinleştirilirse bu uygulama, çerezler, form verileri ve web depolama dahil olmak üzere web sayfalarının önbelleğini her başlangıçta temizler.<br><i>Bu değişikliğin uygulanması için yeniden yükleme gerekir.</i>

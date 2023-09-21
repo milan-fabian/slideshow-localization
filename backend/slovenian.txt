@@ -869,3 +869,5 @@ sample_screen_layout_ANIMATION_AND_TIME_help=Glavna plošča prikazuje slike iz 
 sample_screen_layout_MOVING_RSS=Z drsečim virom RSS
 sample_screen_layout_MOVING_RSS_help=Glavna plošča, ki prikazuje vse datoteke v ciklu, s polprosojnim drsnim virom RSS na dnu.
 media_files=Medijske datoteke
+webview_clear_cache=Počisti spletni predpomnilnik ob zagonu
+webview_clear_cache_help=Če je omogočena, bo ta aplikacija ob vsakem zagonu počistila predpomnilnik za spletne strani, vključno s piškotki, podatki obrazcev in spletno shrambo.<br><i>Za uveljavitev te spremembe je potrebno ponovno nalaganje.</i>

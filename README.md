@@ -20,7 +20,7 @@ If you use a translation service (such as Google Translate) as a help, please re
 - English
 - French (thanks to Ahmed Karboubi)
 - German (thanks to Stefan Preitschaft)
-- Italian (thanks to Michele Fioretti)
+- Italian (thanks to Michele Fioretti & Nicola Pinto)
 - Japanese (thanks to Takashi Yamaguchi)
 - Korean (thanks to Seok Gyo Seo)
 - Polish (thanks to Piotr Bujalski)

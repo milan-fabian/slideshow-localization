@@ -869,3 +869,5 @@ sample_screen_layout_ANIMATION_AND_TIME_help=Painel principal mostrando as image
 sample_screen_layout_MOVING_RSS=Com feed RSS de rolagem
 sample_screen_layout_MOVING_RSS_help=Painel principal mostrando todos os arquivos em ciclo, com feed RSS de rolagem semitransparente na parte inferior.
 media_files=Arquivos de mídia
+webview_clear_cache=Limpe o cache da web ao iniciar
+webview_clear_cache_help=Se ativado, este aplicativo limpará o cache das páginas da Web a cada inicialização, incluindo cookies, dados de formulários e armazenamento da Web.<br><i>É necessário recarregar para aplicar esta alteração.</i>

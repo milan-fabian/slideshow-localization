@@ -869,3 +869,5 @@ sample_screen_layout_ANIMATION_AND_TIME_help=현재 시간이 포함된 반투�
 sample_screen_layout_MOVING_RSS=스크롤 RSS 피드 포함
 sample_screen_layout_MOVING_RSS_help=맨 아래에 반투명 스크롤 RSS 피드가 있는 모든 파일을 주기로 표시하는 기본 패널.
 media_files=미디어 파일
+webview_clear_cache=시작 시 웹 캐시 지우기
+webview_clear_cache_help=사용하도록 설정하면 이 앱은 시작할 때마다 쿠키, 양식 데이터, 웹 저장소를 포함하여 웹페이지의 캐시를 삭제합니다.<br><i>이 변경사항을 적용하려면 새로고침이 필요합니다.</i>

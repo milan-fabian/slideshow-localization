@@ -869,3 +869,5 @@ sample_screen_layout_ANIMATION_AND_TIME_help=Hauptfenster mit Bildern aus dem Or
 sample_screen_layout_MOVING_RSS=Mit scrollendem RSS-Feed
 sample_screen_layout_MOVING_RSS_help=Hauptfenster mit allen Dateien im Zyklus, unten mit halbtransparentem scrollendem RSS-Feed.
 media_files=Media-Dateien
+webview_clear_cache=Web-Cache beim Start leeren
+webview_clear_cache_help=Wenn diese App aktiviert ist, löscht diese App bei jedem Start den Cache für Webseiten, einschließlich Cookies, Formulardaten und Webspeicher.<br><i>Für die Anwendung dieser Änderung ist ein Neuladen erforderlich.</i>
