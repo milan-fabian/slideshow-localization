@@ -454,7 +454,7 @@ rotation=Rotation
 rotation_help=Rotation of the screen layout in degrees (0°, 90°, 180° or 270°). Use Enhanced video player for playing videos when rotation is set (see Device settings).
 cloud_grabber_login_none=No %s account was associated yet.
 cloud_grabber_login=Login with %s account
-cloud_grabber_login_help=Click the button above to login with your %s account. Browser will open on the <b>device's screen</b> with the login form (that means you will need direct access to the device). After logging in, return to the app to continue. Please review privacy policy on <a href="https://slideshow.digital/privacy-policy/" target="_blank">https://slideshow.digital/privacy-policy</a> before proceeding.
+cloud_grabber_login_help=Click the button above to login with your %s account. Browser will open on the <b>device's screen</b> with the login form (that means you will need direct access to the device). After logging in, return to the app to continue. Please review privacy policy on <a href="https://slideshow.digital/privacy-policy/" target="_blank">https://slideshow.digital/privacy-policy</a> before proceeding.<br><br>If you get an error message saying "Error 403: disallowed_useragent", try installing or updating Chrome or Firefox browser on the Android device and setting it as your default browser.
 cloud_grabber_logout=Logout from %s account
 cloud_grabber_logout_help=After logging out, synchronization with %s will no longer work
 cloud_grabber_no_folder_found=No folder found on connected %s
@@ -471,7 +471,7 @@ grabber_list=List of added synchronizations
 grabber_edit=Edit synchronization
 grabber_create=Add new synchronization
 cancel=Cancel
-clear_folder=Clear folder
+clear_folder=Clear folder (delete old files)
 clear_folder_help=Delete old files from the target folder after each synchronization (valid only for Google Drive, Dropbox, WebDAV or ZIP files)
 screen_layouts_playlists_items=Screen layouts, playlists, content
 select_all=Select all
@@ -558,7 +558,7 @@ launcher_clear=Unset as Launcher / Home application
 launcher_clear_success=Unsetting Launcher / Home application was successful
 android_settings=Android settings
 launcher_set=Set as Launcher / Home application
-launcher_set_help=Opens a dialog with a list of apps, where you can set this app as this device's Launcher / Home app. If no dialog is displayed, please change the Home app via Android settings. Use only on devices dedicated to this app. 
+launcher_set_help=Opens a dialog with a list of apps, where you can set this app as this device's Launcher / Home app. If no dialog is displayed, please change the Home app via Android settings. Use only on devices dedicated to this app. On some devices, you might need to set this setting two times, as the "always" option in the dialog is displayed only during the second time.
 screen_login_required=Login is required for this action
 screen_login_required_help=Please enter username and password (the same as for the web interface) or contact your administrator
 password_protect_screen=Protect screen with password
@@ -672,7 +672,7 @@ keep_wifi_on=Keep WiFi on
 keep_wifi_on_help=Tells Android to keep the WiFi always on and in high performance mode. If unchecked, WiFi connection might be lost on some devices after some time, in order to save power.<br><i>Reload is required for applying this change.</i>\t
 mqtt_use_websockets=Use websockets for MQTT
 new_install_message=<p>Thank you for installing Slideshow - Digital Signage player, we hope you will like it.</p><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
-updated_version_message=<p>Slideshow app has been successfully updated to a newer version. There are following changes in this version:</p><ul><li>Added setting to turn off webpage cache clearing (setting Clear web cache on start)</li><li>Added REST APIs for action and shell command</li><li>Enhanced HTTP Tunnel performance for Other devices</li><li>Small fixes & enhancements</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
+updated_version_message=<p>Slideshow app has been successfully updated to a newer version. There are following changes in this version:</p><ul><li>Added settings internal screensaver layout (see menu Screen layout - Screensaver)</li><li>Added Click areas for images (see menu File manager - right click an image - Click areas)</li><li>Added new setting Grant web pages permissions (see menu Settings - Device settings)</li><li>Added new setting Target folder from Flash drive (see menu Settings - Device settings)</li><li>Fixed app update on Android 7</li><li>Small fixes & enhancements</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
 welcome=Welcome
 mqtt_report_data=Report data through MQTT
 mqtt_report_data_help=Automatically send device info through MQTT every 2 minutes.<br><i>Reload is required for applying this change.</i>
@@ -871,3 +871,13 @@ sample_screen_layout_MOVING_RSS_help=Main panel showing all files in cycle, with
 media_files=Media files
 webview_clear_cache=Clear web cache on start
 webview_clear_cache_help=If enabled, this app will clear the cache for webpages on each start, including cookies, form data and web storage.<br><i>Reload is required for applying this change.</i>
+screensaver=Screensaver
+screensaver_after_minutes=Activate screensaver after (minutes)
+screensaver_settings_saved=Screensaver settings were successfully saved
+screensaver_help=Screensaver is activated automatically if there is no user interaction with the screen for a period of time (no screen touch or key press), it switches the view to the screen layout selected below. If there is any touch or key press, it will immediately revert back to the scheduled layout.
+webview_grant_permissions=Grant web pages permissions
+webview_grant_permissions_help=Automatically grant permission to access camera, microphone, etc. to web pages displayed inside this app.
+keep_screen_on=Keep screen on
+keep_screen_on_help=Keep the device's screen on while this app is running.<br><i>Reload is required for applying this change.</i>
+usb_target_folder=Target folder from Flash drive
+usb_target_folder_help=To which folder in this app are the files from Flash drive copied. Slash means root folder. This is used only if copying from Flash drive is allowed (see setting Action on Flash drive insert).
