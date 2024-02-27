@@ -672,7 +672,7 @@ keep_wifi_on=Keep WiFi on
 keep_wifi_on_help=Tells Android to keep the WiFi always on and in high performance mode. If unchecked, WiFi connection might be lost on some devices after some time, in order to save power.<br><i>Reload is required for applying this change.</i>\t
 mqtt_use_websockets=Use websockets for MQTT
 new_install_message=<p>Thank you for installing Slideshow - Digital Signage player, we hope you will like it.</p><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a> and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
-updated_version_message=<p>Slideshow app has been successfully updated to a newer version. There are following changes in this version:</p><ul><li>Added settings internal screensaver layout (see menu Screen layout - Screensaver)</li><li>Added Click areas for images (see menu File manager - right click an image - Click areas)</li><li>Added new setting Grant web pages permissions (see menu Settings - Device settings)</li><li>Added new setting Target folder from Flash drive (see menu Settings - Device settings)</li><li>Fixed app update on Android 7</li><li>Small fixes & enhancements</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
+updated_version_message=<p>Slideshow app has been successfully updated to a newer version. There are following changes in this version:</p><ul><li>Added possibility to mirror camera image (see Edit content for type Video input)</li><li>Added network ping watchdog (see Device settings)</li><li>Added new setting Target folder from Flash drive (see menu Settings - Device settings)</li><li>Changed screen layout intervals check from every minute to every 10 seconds (screen layout interval can now be decimal number)</li><li>Enhanced Face detection with additional settings, status page and MQTT reporting</li></ul><p>You can find documentation for features on <a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>  and watch tutorials on  <a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ</a>.</p><p>If you like Slideshow app, you can support the development by rating the app on <a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">Google Play</a> or buy us a <a href="https://ko-fi.com/slideshow" target="_blank">coffee</a>.</p><span style='float:right'>-- The Development team --</span>
 welcome=Welcome
 mqtt_report_data=Report data through MQTT
 mqtt_report_data_help=Automatically send device info through MQTT every 2 minutes.<br><i>Reload is required for applying this change.</i>
@@ -881,3 +881,24 @@ keep_screen_on=Keep screen on
 keep_screen_on_help=Keep the device's screen on while this app is running.<br><i>Reload is required for applying this change.</i>
 usb_target_folder=Target folder from Flash drive
 usb_target_folder_help=To which folder in this app are the files from Flash drive copied. Slash means root folder. This is used only if copying from Flash drive is allowed (see setting Action on Flash drive insert).
+face_detection_preferred_image_width=Preferred camera image width
+face_detection_preferred_image_width_help=Preferred width of the image taken by camera. If the camera doesn't support this particular width, the closest larger width will be used. If no value is entered, the maximum available picture size will be chosen.<br><i>Reload is required for applying this change.</i>
+face_detection_min_face_size=Minimal width of a face (in %)
+face_detection_min_face_size_help=Minimal width of a face in percentage of the total image width, in order for the face to be counted.<br><i>Reload is required for applying this change.</i>
+face_detection_min_eyes_opened=Minimal number of opened eyes
+face_detection_min_eyes_opened_help=Minimal probability of opened eyes, in order for the face to be counted. Enter a decimal number between 0 and 2.<br><i>Reload is required for applying this change.</i>
+watchdog_ping_address=IP address for pings
+watchdog_ping_address_help=IP address or hostname of a network device that should be pinged for watchdog. If no address is entered, the network watchdog is turned off.<br><i>Reload is required for applying this change.</i>
+watchdog_ping_delay=Delay between pings (in s)
+watchdog_ping_delay_help=Delay in seconds between consecutive pings.<br><i>Reload is required for applying this change.</i>
+watchdog_ping_times=No. of failed pings for reboot
+watchdog_ping_times_help=Number of consecutive failed pings, after which this  device is rebooted. Works only on rooted devices.
+face_detection_control_awb_mode=White balance mode
+face_detection_control_awb_mode_help=White balance mode of camera for taking pictures for face detection.
+face_detection_exposure_compensation=Exposure compensation
+face_detection_exposure_compensation_help=Adjustment to auto-exposure brightness of image for face detection.
+face_detection_detect_eyes=Detect eyes
+face_detection_detect_eyes_help=Whether to detect eyes, in addition to faces. If enabled, the face detection process might take longer.
+mirror_image=Mirror image
+watchdog_ping_default_gateway=Ping default gateway
+watchdog_ping_default_gateway_help=Use default gateway for watchdog pings. May be used instead of IP address for pings. Watchdog will be active only if the default gateway is known during the app's startup.<br><i>Reload is required for applying this change.</i>
