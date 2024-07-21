@@ -13,6 +13,7 @@ localization["ru"] = {};
 localization["ja"] = {};
 localization["sl"] = {};
 localization["ko"] = {};
+localization["zh"] = {};
 
 localization.en["reboot"] = "Reboot device";
 localization.en["reboot_success"] = "Device was successfully rebooted";
@@ -167,6 +168,17 @@ localization.ko["invalid_file_type"] = "지원되지 않는 파일 유형";
 localization.ko["file_too_big"] = "파일이 너무 큽니다({{filesize}}MB). 최대 크기는 {{maxFilesize}}MB입니다.";
 localization.ko["downloader_info"] = "다운로드에 대한 정보";
 localization.ko["show_file"] = "파일 보기";
+
+localization.zh["reboot"] = "重启设备";
+localization.zh["reboot_success"] = "设备重启成功";
+localization.zh["reload"] = "重新加载应用";
+localization.zh["reload_success"] = "重新加载应用成功";
+localization.zh["save"] = "保存";
+localization.zh["drop_to_upload"] = "单击此处或将文件拖放到此处进行上传";
+localization.zh["invalid_file_type"] = "不支持的文件类型";
+localization.zh["file_too_big"] = "文件太大 ({{filesize}} MB)，允许最大为 {{maxFilesize}} MB";
+localization.zh["downloader_info"] = "下载信息";
+localization.zh["show_file"] = "显示文件";
 
 function localizeString(key) {
 	return localization[choosen_language][key];
