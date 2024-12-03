@@ -195,7 +195,7 @@ update_success=更新已成功启动，请等待应用程序自动重新加载�
 update_error=无法更新应用程序
 set_original_playlist=恢复预定播放列表
 set_original_screen_layout=恢复计划的屏幕布局
-switch_fullscreen=切换全屏/窗口
+main_zone_fullscreen=切换全屏/窗口
 playlist_empty=播放列表为空
 external_storage_path=存储媒体
 external_storage_path_help=选择保存播放文件的存储空间。从Android设备的内部存储或外部存储（SD卡或USB闪存驱动器，如果可用）中进行选择。运行此应用程序时，外部存储必须始终存在。如果使用非永久性外部存储器，请检查设置“闪存驱动器插入操作”<br><i>应用此更改需要重新加载</i>
@@ -283,7 +283,7 @@ reload_question=是否要重新加载此应用程序？
 reload=重新加载应用程序
 reload_info=按下重新加载后，设备上的应用程序将关闭并重新启动。您可以在大约20秒内重新登录。
 reboot_reload=重新启动/重新加载
-weather_api_key_help=用于下载天气信息的API密钥<br>对于OpenWeatherMap，可以在<a href=“https://openweathermap.org/appid">https://openweathermap.org/appid一br>对于这里的目的地天气，可以在<a href=“https://developer.here.com/projects">https://developer.here.com/projects一br>这不是Open Meteo的必要条件<br>在使用天气信息提供商之前，请查看其许可证。
+weather_api_key_help=用于下载天气信息的API密钥<br>对于OpenWeatherMap，可以在<a href="https://openweathermap.org/appid">https://openweathermap.org/appid一br>对于这里的目的地天气，可以在<a href="https://developer.here.com/projects">https://developer.here.com/projects一br>这不是Open Meteo的必要条件<br>在使用天气信息提供商之前，请查看其许可证。
 thread=线程
 threads=Threads
 shell_console=shell控制台
@@ -297,7 +297,6 @@ marketing_appeal=此版本是免费提供的。如果您对此软件或白标版
 playlists_help=播放列表是一组内容，在循环中播放。您可以在一天中的某些时间将不同的播放列表设置为不同的屏幕布局区域。
 items_help=内容包括一个或多个上传的文件（根据文件名进行挑选）、天气预报、RSS新闻、日期和时间等。如果要在屏幕上播放内容，请将其分配到播放列表中。
 screen_layouts=屏幕布局
-current_screen_resolution_is=当前UI屏幕分辨率为
 screen_resolution_ui=UI屏幕分辨率（根据设备报告）
 screen_resolution_output=输出屏幕分辨率（根据设备报告）
 width=宽
@@ -315,9 +314,9 @@ main_panel=主要区域
 left=左边
 top=顶部
 date_format=日期格式
-date_format_help=显示日期的格式，一些示例：<br>“EEEE，dd.M.yyyy”-2019年3月20日星期三<br>https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html一i>
+date_format_help=显示日期的格式，一些示例：<br>“EEEE，dd.M.yyyy”-2019年3月20日星期三<br><i><a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html</a>
 time_format=时间格式
-time_format_help=显示时间的格式，一些示例：<br>“HH:mm”-20:33<br>”h:mm a“-8:33 PM<br><i>有关详细信息，请访问<a href=“https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html一i>
+time_format_help=显示时间的格式，一些示例：<br>“HH:mm”-20:33<br>”h:mm a“-8:33 PM<br><i>有关详细信息，请访问<a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html</a></i>
 date_format_empty=日期格式不能为空
 date_format_invalid=日期格式无效
 time_format_empty=时间格式不能为空
@@ -454,7 +453,7 @@ rotation=旋转
 rotation_help=屏幕布局的旋转角度（0°、90°、180°或270°）。设置旋转时，使用增强型视频播放器播放视频（请参阅设备设置）。
 cloud_grabber_login_none=尚未关联%s帐户。
 cloud_grabber_login=使用%s帐户登录
-cloud_grabber_login_help=单击上面的按钮以使用您的%s帐户登录。浏览器将在<b>设备的屏幕上打开</b>并带有登录表单（这意味着您需要直接访问该设备）。登录后，返回应用程序继续。请查看<a href=“https://slideshow.digital/privacy-policy/“target=”_blank“>https://slideshow.digital/privacy-policy</a>然后继续<br><br>如果您收到一条错误消息，上面写着“错误403:disabled_useragent”，请尝试在Android设备上安装或更新Chrome或Firefox浏览器，并将其设置为默认浏览器。
+cloud_grabber_login_help=单击上面的按钮以使用您的%s帐户登录。浏览器将在<b>设备的屏幕上打开</b>并带有登录表单（这意味着您需要直接访问该设备）。登录后，返回应用程序继续。请查看<a href="https://slideshow.digital/privacy-policy/" target="_blank">https://slideshow.digital/privacy-policy</a>然后继续<br><br>如果您收到一条错误消息，上面写着“错误403:disabled_useragent”，请尝试在Android设备上安装或更新Chrome或Firefox浏览器，并将其设置为默认浏览器。
 cloud_grabber_logout=从%s帐户注销
 cloud_grabber_logout_help=注销后，与%s的同步将不再有效
 cloud_grabber_no_folder_found=在连接的%s上找不到文件夹
@@ -517,7 +516,7 @@ sample_screen_layout_WITH_TIME_help=主面板显示循环中的所有文件，�
 add_sample_images=添加示例图像
 sample_images_error=添加示例图像时出错
 sample_images_success=已成功添加示例图像
-permission_start_at_boot_allow=启动时需要特殊的系统权限。您将被引导至Android设置以允许此权限。
+permission_start_at_boot_allow=此设置需要特殊的系统权限。您将被引导至Android设置以允许此权限。
 external_storages=外部存储器
 details=详情
 top_left_radius=左上半径
@@ -553,7 +552,7 @@ stroke=边界线
 users_help=可以访问此web界面的用户列表。
 password_change_help=更改当前登录用户的web界面密码。
 weather_text=文本模板
-weather_text_help=天气信息文本模板。可以包含2个温度范围的“%.0f”占位符。除日期格式外，所有字符都必须用单引号（'）括起来<br>请参阅<a href=“https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html</a>用于日期格式规范。
+weather_text_help=天气信息文本模板。可以包含2个温度范围的“%.0f”占位符。除日期格式外，所有字符都必须用单引号（'）括起来<br>请参阅<a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html</a>用于日期格式规范。
 launcher_clear=取消设置为启动器/主应用程序
 launcher_clear_success=成功取消设置启动器/主页应用程序
 android_settings=安卓设置
@@ -669,10 +668,10 @@ current_media=当前媒体
 change_status=更改状态
 media_status_control=媒体状态和控制
 keep_wifi_on=打开WiFi
-keep_wifi_on_help=告诉Android保持WiFi始终打开并处于高性能模式。如果不选中此项，为了省电，一些设备的WiFi连接可能会在一段时间后丢失<br><i>应用此更改需要重新加载</i> \t
+keep_wifi_on_help=告诉Android保持WiFi始终打开并处于高性能模式。如果不选中此项，为了省电，一些设备的WiFi连接可能会在一段时间后丢失<br><i>应用此更改需要重新加载</i>
 mqtt_use_websockets=将websockets用于MQTT
-new_install_message=<p>感谢您安装幻灯片-数字标牌播放器，我们希望您会喜欢它。</p><p>您可以在<a href=“https://slideshow.digital/documentation/“target=”_blank“>https://slideshow.digital/documentation/</a>并观看<a href=“https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ“target=”_blank“>https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ一p> <p>如果您喜欢幻灯片放映应用程序，您可以通过在<a href=“https://play.google.com/store/apps/details?id=sk.mimac.slideshow“target=”_blank“>谷歌播放</a>或为我们购买<a href=”https://ko-fi.com/slideshow“target=”_blank“>咖啡</a></p><span style=‘float:right’>--开发团队--</span>
-updated_version_message=<p>幻灯片放映应用程序已成功更新到新版本。此版本中有以下更改：</p><ul><li>添加了镜像相机图像的可能性（请参阅视频输入类型的编辑内容）</li><li>添加了网络ping看门狗（请参阅设备设置）</li><li>从闪存驱动器添加了新设置目标文件夹（请参阅菜单设置-设备设置）[/li><li>将屏幕布局间隔检查从每分钟更改为每10秒（屏幕布局间隔现在可以是十进制数）</li>><li>通过附加设置、状态页和MQTT报告增强了人脸检测</li></ul><p>您可以在<a href=“https://slideshow.digital/documentation/“target=”_blank“>https://slideshow.digital/documentation/</a>并观看<a href=“https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ“target=”_blank“>https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ一p> <p>如果您喜欢幻灯片放映应用程序，您可以通过在<a href=“https://play.google.com/store/apps/details?id=sk.mimac.slideshow“target=”_blank“>谷歌播放</a>或为我们购买<a href=”https://ko-fi.com/slideshow“target=”_blank“>咖啡</a></p><span style=‘float:right’>--开发团队--</span>
+new_install_message=<p>感谢您安装幻灯片-数字标牌播放器，我们希望您会喜欢它。</p><p>您可以在<a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>并观看<a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ一p> <p>如果您喜欢幻灯片放映应用程序，您可以通过在<a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">谷歌播放</a>或为我们购买<a href="https://ko-fi.com/slideshow" target='_blank'>咖啡</a></p><span style='float:right'>--开发团队--</span>
+updated_version_message=<p>幻灯片放映应用程序已成功更新到新版本。</p><p>您可以在<a href="https://slideshow.digital/documentation/" target="_blank">https://slideshow.digital/documentation/</a>并观看<a href="https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ" target="_blank">https://www.youtube.com/channel/UCJFSXCItojY4PS76JNr_pdQ一p> <p>如果您喜欢幻灯片放映应用程序，您可以通过在<a href="https://play.google.com/store/apps/details?id=sk.mimac.slideshow" target="_blank">谷歌播放</a>或为我们购买<a href="https://ko-fi.com/slideshow" target="_blank">咖啡</a></p><span style='float:right'>--开发团队--</span>
 welcome=欢迎
 mqtt_report_data=通过MQTT报告数据
 mqtt_report_data_help=每2分钟通过MQTT自动发送设备信息<br><i>应用此更改需要重新加载</i>
@@ -902,3 +901,30 @@ face_detection_detect_eyes_help=是否检测眼睛，除了人脸。如果启用
 mirror_image=镜像
 watchdog_ping_default_gateway=Ping默认网关
 watchdog_ping_default_gateway_help=使用默认网关进行看门狗ping。可以用来代替ping的IP地址。只有在应用程序启动期间已知默认网关的情况下，看门狗才会处于活动状态<br><i>应用此更改需要重新加载</i>
+displays=Displays (as reported by device)
+keep_service_running=Keep the background service
+keep_service_running_help=Keep the background service running even if the app is not in the foreground. Web interface, FTP and other services will be available even if the app is closed, as long as the notification in the Android status bar is active.
+multi_display_allow=Allow multi-display
+multi_display_allow_help=Allow displaying content on all displays connected to this Android device (not only the main display). Playlists for various displays can be set up by editing the screen layout zone. <br><i>Reload is required for applying this change.</i>
+display=Display
+default_display=Default display
+service_is_running=Background service for Digital Signage is running
+reopen=Reopen
+stop_all=Stop all
+number_of_active_displays=Number of active displays
+show_screencheck_on_all_displays=Show screen check on all displays
+item_type_ISLAM_PRAYER_TIMES=Prayer times
+hdmi_cec_regular_interval=Interval for sending HDMI CEC command
+hdmi_cec_regular_interval_help=Interval in seconds, how often to sent the predefined HDMI CEC command.<br><i>Reload is required for applying this change.</i>
+hdmi_cec_regular_command=HDMI CEC command to be sent
+hdmi_cec_regular_command_help=Predefined HDMI CEC command, which will be sent periodically according to the interval. If empty, no command will be sent.
+force_audio_passthrough=Force audio passthrough
+force_audio_passthrough_help=Force passthrough of audio track when playing a video. Works only with Video player type ExoPlayer + SurfaceView. Requires device and TV support.<br><i>Reload is required for applying this change.</i>
+image_zoom_pan=Allow images zoom&pan
+image_zoom_pan_help=Allow zooming and panning images with touch gestures on the touchscreen
+video_stream_buffering=Video stream buffering (in ms)
+video_stream_buffering_help=Duration of network buffering in milliseconds before the video stream playback is started. For ExoPlayer only.<br><i>Reload is required for applying this change.</i>
+request_microphone_permission=Request microphone permission
+request_microphone_permission_help=Microphone / audio recording permission is needed only for displaying web pages that ask for microphone access.
+watchdog_service_enabled=Enable watchdog service
+watchdog_service_enabled_help=Enable background watchdog service, which will start the app again if it is not in the foreground for longer than 2 minutes. <b>Only for devices used exclusively with this app.</b><br><i>Device restart is required for applying this change.</i>

@@ -15,6 +15,7 @@ Please update both parts (otherwise I will have to use Google Translate and that
 If you use a translation service (such as Google Translate) as a help, please review every translation manually afterwards. Such services tend to break some of the formatting and the quality of the translation without manual check is not sufficient.
 
 ## Current languages:
+- Chinese (thanks to evin792)
 - Croatian (thanks to Josip Papić)
 - Czech (thanks to Aleš Obst)
 - English
