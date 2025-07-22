@@ -971,3 +971,5 @@ fixed_order_random=固定ランダム順序
 fixed_order_random_help=ランダム メディア順序に高度なアルゴリズムを使用します。すべてのメディアを 1 回だけ表示してから、2 回目のラウンドに進みます。
 usb_copy_folder_priority=フラッシュ ドライブ上の優先フォルダー
 usb_copy_folder_priority_help=フラッシュ ドライブ上のフォルダーで、優先フォルダーとして使用されます。このフォルダーがフラッシュ ドライブ上に存在する場合、通常のフォルダーは無視され、優先フォルダーのみが使用されます。優先フォルダーのチェックをスキップするには、この設定を空のままにしておきます。
+use_chromium_webview=Use Chromium WebView
+use_chromium_webview_help=Use Chromium-based WebView for displaying web pages.<br><i>Reload is required for applying this change.</i>

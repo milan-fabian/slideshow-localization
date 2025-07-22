@@ -971,3 +971,5 @@ fixed_order_random=Ordem aleatória fixa
 fixed_order_random_help=Utilize um algoritmo avançado para a ordem aleatória dos meios. Irá exibir todas as mídias exatamente uma vez antes de prosseguir para a segunda ronda.
 usb_copy_folder_priority=Pasta de prioridade na unidade Flash
 usb_copy_folder_priority_help=A pasta na pen drive, que será utilizada como prioridade. Se esta pasta existir no Flash Drive, a pasta normal será ignorada e apenas a pasta prioritária será utilizada. Mantenha esta configuração vazia para ignorar a verificação prioritária de pastas.
+use_chromium_webview=Use Chromium WebView
+use_chromium_webview_help=Use Chromium-based WebView for displaying web pages.<br><i>Reload is required for applying this change.</i>

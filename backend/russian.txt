@@ -971,3 +971,5 @@ fixed_order_random=Фиксированный случайный порядок
 fixed_order_random_help=Используйте расширенный алгоритм для случайного порядка медиа. Он отобразит все медиа ровно один раз, прежде чем перейти ко второму раунду.
 usb_copy_folder_priority=Приоритетная папка на флэш-накопителе
 usb_copy_folder_priority_help=Папка на флэш-накопителе, которая будет использоваться как приоритетная. Если эта папка существует на флэш-накопителе, обычная папка будет игнорироваться, и будет использоваться только приоритетная папка. Оставьте этот параметр пустым, чтобы пропустить проверку приоритетной папки.
+use_chromium_webview=Use Chromium WebView
+use_chromium_webview_help=Use Chromium-based WebView for displaying web pages.<br><i>Reload is required for applying this change.</i>

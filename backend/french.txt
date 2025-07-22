@@ -971,3 +971,5 @@ fixed_order_random=Ordre aléatoire fixe
 fixed_order_random_help=Utilisez un algorithme avancé pour l'ordre aléatoire des médias. Il affichera tous les médias exactement une fois avant de passer au deuxième tour.
 usb_copy_folder_priority=Dossier prioritaire sur la clé USB
 usb_copy_folder_priority_help=Le dossier sur la clé USB qui sera utilisé en priorité. Si ce dossier existe sur la clé USB, le dossier normal sera ignoré et seul le dossier prioritaire sera utilisé. Laissez ce paramètre vide pour ignorer la vérification du dossier prioritaire.
+use_chromium_webview=Use Chromium WebView
+use_chromium_webview_help=Use Chromium-based WebView for displaying web pages.<br><i>Reload is required for applying this change.</i>

@@ -971,3 +971,5 @@ fixed_order_random=Stała kolejność losowa
 fixed_order_random_help=Użyj zaawansowanego algorytmu losowej kolejności mediów. Wyświetli wszystkie media dokładnie raz przed przejściem do drugiej rundy.
 usb_copy_folder_priority=Folder priorytetowy na dysku flash
 usb_copy_folder_priority_help=Folder na dysku flash, który będzie używany jako folder priorytetowy. Jeśli ten folder istnieje na dysku flash, zwykły folder zostanie zignorowany i użyty zostanie tylko folder priorytetowy. Pozostaw to ustawienie puste, aby pominąć sprawdzanie folderów priorytetowych.
+use_chromium_webview=Use Chromium WebView
+use_chromium_webview_help=Use Chromium-based WebView for displaying web pages.<br><i>Reload is required for applying this change.</i>

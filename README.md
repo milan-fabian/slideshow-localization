@@ -18,6 +18,7 @@ If you use a translation service (such as Google Translate) as a help, please re
 - Chinese (thanks to evin792)
 - Croatian (thanks to Josip Papić)
 - Czech (thanks to Aleš Obst)
+- Dutch (thanks to Jule Hintzbergen)
 - English
 - French (thanks to Ahmed Karboubi)
 - German (thanks to Stefan Preitschaft)

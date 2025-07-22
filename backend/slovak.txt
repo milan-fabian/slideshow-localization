@@ -971,3 +971,5 @@ fixed_order_random=Pevné náhodné poradie
 fixed_order_random_help=Použiť pokročilý algoritmus na náhodné poradie médií. Zobrazí všetky médiá presne raz pred pokračovaním do druhého kola.
 usb_copy_folder_priority=Prioritný priečinok na USB kľúči
 usb_copy_folder_priority_help=Priečinok na USB kľúči ktorý sa použije ako prioritný. Ak tento priečinok na USB kľúci existuje, bežný priečinok sa bude ignorovať a použije sa iba prioritný priečinok. Pre preskočenie kontroly prioritného priečinka nechajte toto nastavenie prázdne.
+use_chromium_webview=Use Chromium WebView
+use_chromium_webview_help=Use Chromium-based WebView for displaying web pages.<br><i>Reload is required for applying this change.</i>

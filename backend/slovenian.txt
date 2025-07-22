@@ -971,3 +971,5 @@ fixed_order_random=Fiksni naključni vrstni red
 fixed_order_random_help=Uporabite napredni algoritem za naključno vrstni red medijev. Vse medije bo prikazal natanko enkrat, preden nadaljuje v drugi krog.
 usb_copy_folder_priority=Prednostna mapa na bliskovnem pogonu
 usb_copy_folder_priority_help=Mapa na bliskovnem pogonu, ki bo uporabljena kot prednostna. Če ta mapa obstaja na bliskovnem pogonu, bo običajna mapa prezrta in uporabljena bo samo prednostna mapa. Naj bo ta nastavitev prazna, da preskočite preverjanje prednostne mape.
+use_chromium_webview=Use Chromium WebView
+use_chromium_webview_help=Use Chromium-based WebView for displaying web pages.<br><i>Reload is required for applying this change.</i>

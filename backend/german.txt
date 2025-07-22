@@ -971,3 +971,5 @@ fixed_order_random=Feste zufällige Reihenfolge
 fixed_order_random_help=Verwenden Sie einen erweiterten Algorithmus für die zufällige Medienanordnung. Es werden alle Medien genau einmal angezeigt, bevor es mit der zweiten Runde weitergeht.
 usb_copy_folder_priority=Prioritätsordner auf dem Flash-Laufwerk
 usb_copy_folder_priority_help=Der Ordner auf dem Flash-Laufwerk, der vorrangig verwendet wird. Wenn dieser Ordner auf dem Flash-Laufwerk vorhanden ist, wird der reguläre Ordner ignoriert und nur der Prioritätsordner verwendet. Lassen Sie diese Einstellung leer, um die Prioritätsordnerprüfung zu überspringen.
+use_chromium_webview=Use Chromium WebView
+use_chromium_webview_help=Use Chromium-based WebView for displaying web pages.<br><i>Reload is required for applying this change.</i>

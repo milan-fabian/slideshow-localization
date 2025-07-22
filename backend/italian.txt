@@ -971,3 +971,5 @@ fixed_order_random=Ordine casuale fisso
 fixed_order_random_help=Utilizza un algoritmo avanzato per l'ordine casuale dei media. Visualizzerà tutti i media esattamente una volta prima di continuare al secondo round.
 usb_copy_folder_priority=Cartella prioritaria su unità Flash
 usb_copy_folder_priority_help=La cartella sull'unità Flash, che verrà utilizzata come prioritaria. Se questa cartella esiste sull'unità Flash, la cartella normale verrà ignorata e verrà utilizzata solo la cartella prioritaria. Mantieni questa impostazione vuota per saltare il controllo della cartella prioritaria.
+use_chromium_webview=Use Chromium WebView
+use_chromium_webview_help=Use Chromium-based WebView for displaying web pages.<br><i>Reload is required for applying this change.</i>

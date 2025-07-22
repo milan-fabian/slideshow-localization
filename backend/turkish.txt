@@ -971,3 +971,5 @@ fixed_order_random=Sabit rastgele sıra
 fixed_order_random_help=Rastgele medya sırası için gelişmiş bir algoritma kullanın. İkinci tura geçmeden önce tüm medyayı tam olarak bir kez görüntüler.
 usb_copy_folder_priority=Flash sürücüdeki öncelikli klasör
 usb_copy_folder_priority_help=Flash sürücüdeki, öncelikli olarak kullanılacak klasör. Bu klasör Flash Sürücüde mevcutsa, normal klasör yok sayılır ve yalnızca öncelikli klasör kullanılır. Öncelikli klasör denetimini atlamak için bu ayarı boş bırakın.
+use_chromium_webview=Use Chromium WebView
+use_chromium_webview_help=Use Chromium-based WebView for displaying web pages.<br><i>Reload is required for applying this change.</i>
